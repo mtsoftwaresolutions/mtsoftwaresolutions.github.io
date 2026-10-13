@@ -1,0 +1,2447 @@
+[
+  {
+    "path": "screenshots/after/ar-contact-200-percent-equivalent.png",
+    "bytes": 285488,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-contact-desktop.png",
+    "bytes": 135499,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-contact-mobile.png",
+    "bytes": 106330,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-footer-1440.png",
+    "bytes": 30470,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-footer-390.png",
+    "bytes": 27071,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-index-desktop.png",
+    "bytes": 443467,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-index-mobile.png",
+    "bytes": 408118,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-mobile-navigation.png",
+    "bytes": 8490,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-navbar-1440.png",
+    "bytes": 10509,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/ar-navbar-390.png",
+    "bytes": 3552,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/browser-report.json",
+    "bytes": 803,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/cross-browser-report.json",
+    "bytes": 525,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-contact-desktop.png",
+    "bytes": 159007,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-contact-mobile.png",
+    "bytes": 120805,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-footer-1440.png",
+    "bytes": 35809,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-footer-390.png",
+    "bytes": 31001,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-hero-desktop.png",
+    "bytes": 112383,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-index-desktop.png",
+    "bytes": 520884,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-index-mobile.png",
+    "bytes": 486700,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-mobile-navigation.png",
+    "bytes": 9295,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-navbar-1440.png",
+    "bytes": 10719,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/en-navbar-390.png",
+    "bytes": 3338,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/initial-ar-contact-390.png",
+    "bytes": 115259,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/initial-ar-index-1440.png",
+    "bytes": 462258,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/initial-en-contact-390.png",
+    "bytes": 131567,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/initial-en-index-1440.png",
+    "bytes": 545804,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/lighthouse/ar-contact.json",
+    "bytes": 460381,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/lighthouse/ar-index.json",
+    "bytes": 584219,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/lighthouse/en-contact.json",
+    "bytes": 478066,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/lighthouse/en-index.json",
+    "bytes": 539055,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/lighthouse/scores.json",
+    "bytes": 3727,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/after/logo-source-trace-comparison.png",
+    "bytes": 73266,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-about-1440.png",
+    "bytes": 215151,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-about-390.png",
+    "bytes": 145762,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-contact-1440.png",
+    "bytes": 117609,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-contact-390.png",
+    "bytes": 71765,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-home-desktop.png",
+    "bytes": 325455,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-index-1440.png",
+    "bytes": 325455,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-index-390.png",
+    "bytes": 239459,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-services-1440.png",
+    "bytes": 386988,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/ar-services-390.png",
+    "bytes": 303025,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/interaction-report.json",
+    "bytes": 148,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/audit-2026-10-13/layout-report.json",
+    "bytes": 23161,
+    "authority": "latest audit"
+  },
+  {
+    "path": "screenshots/before/ar-contact-desktop.png",
+    "bytes": 154703,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/ar-contact-mobile.png",
+    "bytes": 127909,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/ar-index-desktop.png",
+    "bytes": 537508,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/ar-index-mobile.png",
+    "bytes": 415178,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/en-contact-desktop.png",
+    "bytes": 181237,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/en-contact-mobile.png",
+    "bytes": 148286,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/en-index-desktop.png",
+    "bytes": 643018,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/before/en-index-mobile.png",
+    "bytes": 530115,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/company-after/ar-404-1440.png",
+    "bytes": 127427,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-404-390.png",
+    "bytes": 91006,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-about-1440.png",
+    "bytes": 444928,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-about-390.png",
+    "bytes": 337739,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-contact-1440.png",
+    "bytes": 182028,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-contact-200-percent-reflow.png",
+    "bytes": 383921,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-contact-390.png",
+    "bytes": 141150,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-footer-1440.png",
+    "bytes": 46308,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-footer-390.png",
+    "bytes": 43887,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-index-1440.png",
+    "bytes": 588218,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-index-390.png",
+    "bytes": 472321,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-mobile-menu.png",
+    "bytes": 57516,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-navbar-1440.png",
+    "bytes": 16111,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-navbar-390.png",
+    "bytes": 5282,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-privacy-1440.png",
+    "bytes": 221008,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-privacy-390.png",
+    "bytes": 177805,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-process-1440.png",
+    "bytes": 439793,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-process-390.png",
+    "bytes": 309762,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-services-1440.png",
+    "bytes": 766944,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/ar-services-390.png",
+    "bytes": 622691,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/browser-report.json",
+    "bytes": 17175,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-404-1440.png",
+    "bytes": 90721,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-404-390.png",
+    "bytes": 59145,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-brand-1440-2x.png",
+    "bytes": 34232,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-brand-390-2x.png",
+    "bytes": 10420,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-contact-first-screen-1440.png",
+    "bytes": 117817,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-contact-first-screen-390.png",
+    "bytes": 49114,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-hero-1440.png",
+    "bytes": 105675,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-hero-390.png",
+    "bytes": 48728,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-privacy-1440.png",
+    "bytes": 147533,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-privacy-390.png",
+    "bytes": 77994,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-service-details-1440.png",
+    "bytes": 129147,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-service-details-390.png",
+    "bytes": 64918,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-service-overview-1440.png",
+    "bytes": 110442,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-service-overview-390.png",
+    "bytes": 60638,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-visible-process-1440.png",
+    "bytes": 99465,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/ar-visible-process-390.png",
+    "bytes": 60639,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-404-1440.png",
+    "bytes": 94642,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-404-390.png",
+    "bytes": 63907,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-brand-1440-2x.png",
+    "bytes": 35157,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-brand-390-2x.png",
+    "bytes": 11013,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-contact-first-screen-1440.png",
+    "bytes": 129111,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-contact-first-screen-390.png",
+    "bytes": 50496,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-hero-1440.png",
+    "bytes": 126116,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-hero-390.png",
+    "bytes": 60306,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-privacy-1440.png",
+    "bytes": 150265,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-privacy-390.png",
+    "bytes": 81201,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-service-details-1440.png",
+    "bytes": 153572,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-service-details-390.png",
+    "bytes": 70425,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-service-overview-1440.png",
+    "bytes": 128201,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-service-overview-390.png",
+    "bytes": 65174,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-visible-process-1440.png",
+    "bytes": 107301,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/en-visible-process-390.png",
+    "bytes": 69549,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/components/header-breakpoints.json",
+    "bytes": 8047,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/cross-browser-report.json",
+    "bytes": 525,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-404-1440.png",
+    "bytes": 139265,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-404-390.png",
+    "bytes": 100422,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-about-1440.png",
+    "bytes": 533435,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-about-390.png",
+    "bytes": 404122,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-contact-1440.png",
+    "bytes": 205400,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-contact-390.png",
+    "bytes": 160819,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-footer-1440.png",
+    "bytes": 55681,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-footer-390.png",
+    "bytes": 51256,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-index-1440.png",
+    "bytes": 735553,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-index-390.png",
+    "bytes": 576403,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-mobile-menu.png",
+    "bytes": 45010,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-navbar-1440.png",
+    "bytes": 17042,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-navbar-390.png",
+    "bytes": 5216,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-privacy-1440.png",
+    "bytes": 244199,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-privacy-390.png",
+    "bytes": 201905,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-process-1440.png",
+    "bytes": 465883,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-process-390.png",
+    "bytes": 358756,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-services-1440.png",
+    "bytes": 859354,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/en-services-390.png",
+    "bytes": 740091,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/height-comparison.json",
+    "bytes": 1309,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/lighthouse/ar-contact.json",
+    "bytes": 483261,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/lighthouse/ar-index.json",
+    "bytes": 581124,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/lighthouse/en-contact.json",
+    "bytes": 503068,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/lighthouse/en-index.json",
+    "bytes": 669089,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/lighthouse/scores.json",
+    "bytes": 3635,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/normal-contact-tasks.json",
+    "bytes": 85,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-after/review.html",
+    "bytes": 9059,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-404-1440.png",
+    "bytes": 130133,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-404-390.png",
+    "bytes": 93625,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-about-1440.png",
+    "bytes": 681102,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-about-390.png",
+    "bytes": 451092,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-contact-1440.png",
+    "bytes": 183946,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-contact-390.png",
+    "bytes": 138258,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-footer-1440.png",
+    "bytes": 45838,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-footer-390.png",
+    "bytes": 47110,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-header-1440.png",
+    "bytes": 13988,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-header-390.png",
+    "bytes": 5282,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-index-1440.png",
+    "bytes": 1740206,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-index-390.png",
+    "bytes": 1370783,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-mobile-menu.png",
+    "bytes": 90781,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-privacy-1440.png",
+    "bytes": 282991,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-privacy-390.png",
+    "bytes": 199565,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-process-1440.png",
+    "bytes": 534551,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-process-390.png",
+    "bytes": 336068,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-services-1440.png",
+    "bytes": 1514451,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/ar-services-390.png",
+    "bytes": 1224384,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/baseline.json",
+    "bytes": 15554,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-404-1440.png",
+    "bytes": 142250,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-404-390.png",
+    "bytes": 103185,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-about-1440.png",
+    "bytes": 766311,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-about-390.png",
+    "bytes": 547211,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-contact-1440.png",
+    "bytes": 211442,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-contact-390.png",
+    "bytes": 156457,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-footer-1440.png",
+    "bytes": 55345,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-footer-390.png",
+    "bytes": 54319,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-header-1440.png",
+    "bytes": 14617,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-header-390.png",
+    "bytes": 5213,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-index-1440.png",
+    "bytes": 1835913,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-index-390.png",
+    "bytes": 1505839,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-mobile-menu.png",
+    "bytes": 71996,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-privacy-1440.png",
+    "bytes": 310571,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-privacy-390.png",
+    "bytes": 221849,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-process-1440.png",
+    "bytes": 596801,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-process-390.png",
+    "bytes": 409083,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-services-1440.png",
+    "bytes": 1662389,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-before/en-services-390.png",
+    "bytes": 1397753,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-404-1440.png",
+    "bytes": 130566,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-404-390.png",
+    "bytes": 93061,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-about-1440.png",
+    "bytes": 475956,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-about-390.png",
+    "bytes": 344094,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-about-facts-1440.png",
+    "bytes": 4246,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-about-facts-390.png",
+    "bytes": 3684,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-contact-1440.png",
+    "bytes": 194656,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-contact-200-percent-reflow.png",
+    "bytes": 405652,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-contact-390.png",
+    "bytes": 151304,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-contact-first-screen.png",
+    "bytes": 46595,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-direct-contact.png",
+    "bytes": 10004,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-footer-1440.png",
+    "bytes": 49298,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-footer-390.png",
+    "bytes": 46464,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-index-1440.png",
+    "bytes": 621478,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-index-390.png",
+    "bytes": 478114,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-mobile-menu.png",
+    "bytes": 57373,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-navbar-1440.png",
+    "bytes": 16111,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-navbar-390.png",
+    "bytes": 5282,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-privacy-1440.png",
+    "bytes": 223978,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-privacy-390.png",
+    "bytes": 179873,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-process-1440.png",
+    "bytes": 442782,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-process-390.png",
+    "bytes": 312336,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-services-1440.png",
+    "bytes": 769979,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/ar-services-390.png",
+    "bytes": 625201,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/browser-report.json",
+    "bytes": 17175,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/company-details-report.json",
+    "bytes": 1626,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-404-1440.png",
+    "bytes": 141113,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-404-390.png",
+    "bytes": 102020,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-about-1440.png",
+    "bytes": 515333,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-about-390.png",
+    "bytes": 411571,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-about-facts-1440.png",
+    "bytes": 4979,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-about-facts-390.png",
+    "bytes": 4311,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-contact-1440.png",
+    "bytes": 217970,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-contact-390.png",
+    "bytes": 171889,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-contact-first-screen.png",
+    "bytes": 48200,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-direct-contact.png",
+    "bytes": 11288,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-footer-1440.png",
+    "bytes": 57204,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-footer-390.png",
+    "bytes": 53294,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-index-1440.png",
+    "bytes": 717337,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-index-390.png",
+    "bytes": 582490,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-mobile-menu.png",
+    "bytes": 50483,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-navbar-1440.png",
+    "bytes": 17042,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-navbar-390.png",
+    "bytes": 5213,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-privacy-1440.png",
+    "bytes": 245772,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-privacy-390.png",
+    "bytes": 203363,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-process-1440.png",
+    "bytes": 467553,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-process-390.png",
+    "bytes": 360799,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-services-1440.png",
+    "bytes": 861945,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-after/en-services-390.png",
+    "bytes": 742102,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/ar-about-1440.png",
+    "bytes": 444928,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/ar-about-390.png",
+    "bytes": 337739,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/ar-contact-1440.png",
+    "bytes": 182028,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/ar-contact-390.png",
+    "bytes": 141149,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/ar-footer-1440.png",
+    "bytes": 46305,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/ar-footer-390.png",
+    "bytes": 43884,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/en-about-1440.png",
+    "bytes": 533438,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/en-about-390.png",
+    "bytes": 404122,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/en-contact-1440.png",
+    "bytes": 205400,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/en-contact-390.png",
+    "bytes": 160819,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/en-footer-1440.png",
+    "bytes": 55663,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/company-details-before/en-footer-390.png",
+    "bytes": 51271,
+    "authority": "confirmed company evidence"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-404-1440.png",
+    "bytes": 130466,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-404-390.png",
+    "bytes": 93061,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-about-1440.png",
+    "bytes": 475949,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-about-390.png",
+    "bytes": 344066,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-contact-1440.png",
+    "bytes": 194656,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-contact-200-percent-reflow.png",
+    "bytes": 401360,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-contact-390.png",
+    "bytes": 151304,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-footer-1440.png",
+    "bytes": 49162,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-footer-390.png",
+    "bytes": 46470,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-index-1440.png",
+    "bytes": 621469,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-index-390.png",
+    "bytes": 478114,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-mobile-menu.png",
+    "bytes": 57646,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-navbar-1440.png",
+    "bytes": 16111,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-navbar-390.png",
+    "bytes": 5282,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-privacy-1440.png",
+    "bytes": 223978,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-privacy-390.png",
+    "bytes": 179873,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-process-1440.png",
+    "bytes": 442782,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-process-390.png",
+    "bytes": 312336,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-services-1440.png",
+    "bytes": 769987,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/ar-services-390.png",
+    "bytes": 625201,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/browser-report.json",
+    "bytes": 17175,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-404-1440.png",
+    "bytes": 141203,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-404-390.png",
+    "bytes": 102020,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-about-1440.png",
+    "bytes": 515073,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-about-390.png",
+    "bytes": 411566,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-contact-1440.png",
+    "bytes": 217935,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-contact-390.png",
+    "bytes": 171889,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-footer-1440.png",
+    "bytes": 57137,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-footer-390.png",
+    "bytes": 53276,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-index-1440.png",
+    "bytes": 717337,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-index-390.png",
+    "bytes": 582490,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-mobile-menu.png",
+    "bytes": 24140,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-navbar-1440.png",
+    "bytes": 17042,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-navbar-390.png",
+    "bytes": 5213,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-privacy-1440.png",
+    "bytes": 245772,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-privacy-390.png",
+    "bytes": 203363,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-process-1440.png",
+    "bytes": 467553,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-process-390.png",
+    "bytes": 360799,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-services-1440.png",
+    "bytes": 861008,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/implementation-2026-10-13/before/en-services-390.png",
+    "bytes": 742128,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/logo-comparison.png",
+    "bytes": 83834,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-contact-1440.png",
+    "bytes": 197380,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-contact-200-percent-reflow.png",
+    "bytes": 402826,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-contact-390.png",
+    "bytes": 149257,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-deep-404.png",
+    "bytes": 105334,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-footer-1440.png",
+    "bytes": 58280,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-footer-390.png",
+    "bytes": 55821,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-index-1440.png",
+    "bytes": 1753920,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-index-390.png",
+    "bytes": 1381807,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-menu-390.png",
+    "bytes": 26499,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-mobile-menu.png",
+    "bytes": 25795,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-navbar-1440.png",
+    "bytes": 15049,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-navbar-390.png",
+    "bytes": 5561,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-viewport-1440.png",
+    "bytes": 489850,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/ar-viewport-390.png",
+    "bytes": 96444,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/browser-report.json",
+    "bytes": 983,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/comparison-ar-1440.png",
+    "bytes": 417749,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/comparison-ar-390.png",
+    "bytes": 273211,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/comparison-en-1440.png",
+    "bytes": 452870,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/comparison-en-390.png",
+    "bytes": 304093,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/cross-browser-report.json",
+    "bytes": 525,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/deep-404-report.json",
+    "bytes": 202,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-contact-1440.png",
+    "bytes": 224744,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-contact-390.png",
+    "bytes": 167600,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-deep-404.png",
+    "bytes": 114973,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-footer-1440.png",
+    "bytes": 67457,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-footer-390.png",
+    "bytes": 63017,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-index-1440.png",
+    "bytes": 1848885,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-index-390.png",
+    "bytes": 1517788,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-menu-390.png",
+    "bytes": 27885,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-mobile-menu.png",
+    "bytes": 27114,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-navbar-1440.png",
+    "bytes": 15448,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-navbar-390.png",
+    "bytes": 5561,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-viewport-1440.png",
+    "bytes": 472584,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/en-viewport-390.png",
+    "bytes": 106593,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/lighthouse/ar-contact.json",
+    "bytes": 459099,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/lighthouse/ar-index.json",
+    "bytes": 729472,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/lighthouse/en-contact.json",
+    "bytes": 491728,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/lighthouse/en-index.json",
+    "bytes": 825553,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign/lighthouse/scores.json",
+    "bytes": 3635,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/ar-contact-1440.png",
+    "bytes": 135499,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/ar-contact-390.png",
+    "bytes": 106330,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/ar-index-1440.png",
+    "bytes": 443467,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/ar-index-390.png",
+    "bytes": 408118,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/en-contact-1440.png",
+    "bytes": 159007,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/en-contact-390.png",
+    "bytes": 120805,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/en-index-1440.png",
+    "bytes": 520884,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/redesign-before/en-index-390.png",
+    "bytes": 486700,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-1440.png",
+    "bytes": 1873556,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-390.png",
+    "bytes": 1291022,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-768.png",
+    "bytes": 1549661,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-contact-1440.png",
+    "bytes": 203494,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-contact-390.png",
+    "bytes": 73531,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-courses-1440.png",
+    "bytes": 746772,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-courses-390.png",
+    "bytes": 583862,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-footer-1440.png",
+    "bytes": 77664,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-footer-390.png",
+    "bytes": 62014,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-header-1440.png",
+    "bytes": 16415,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-header-390.png",
+    "bytes": 5130,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-hero-1440.png",
+    "bytes": 172297,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-hero-390.png",
+    "bytes": 82198,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-instructor-1440.png",
+    "bytes": 421089,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-instructor-390.png",
+    "bytes": 245907,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-learningpaths-1440.png",
+    "bytes": 525904,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-learningpaths-390.png",
+    "bytes": 475842,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-menu.png",
+    "bytes": 35253,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-payment-1440.png",
+    "bytes": 211878,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-payment-390.png",
+    "bytes": 157921,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-promotion-1440.png",
+    "bytes": 195054,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-promotion-390.png",
+    "bytes": 123037,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-reviews-1440.png",
+    "bytes": 317471,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-reviews-390.png",
+    "bytes": 119148,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-viewport-1440.png",
+    "bytes": 701153,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/ar-viewport-390.png",
+    "bytes": 124768,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-1440.png",
+    "bytes": 1928578,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-390.png",
+    "bytes": 1358400,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-768.png",
+    "bytes": 1630273,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-contact-1440.png",
+    "bytes": 214110,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-contact-390.png",
+    "bytes": 85776,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-courses-1440.png",
+    "bytes": 763914,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-courses-390.png",
+    "bytes": 593209,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-footer-1440.png",
+    "bytes": 82494,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-footer-390.png",
+    "bytes": 67771,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-header-1440.png",
+    "bytes": 15820,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-header-390.png",
+    "bytes": 5179,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-hero-1440.png",
+    "bytes": 177400,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-hero-390.png",
+    "bytes": 87257,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-instructor-1440.png",
+    "bytes": 427283,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-instructor-390.png",
+    "bytes": 257625,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-learningpaths-1440.png",
+    "bytes": 539396,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-learningpaths-390.png",
+    "bytes": 486301,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-menu.png",
+    "bytes": 36771,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-payment-1440.png",
+    "bytes": 229758,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-payment-390.png",
+    "bytes": 180166,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-promotion-1440.png",
+    "bytes": 268077,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-promotion-390.png",
+    "bytes": 120957,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-reviews-1440.png",
+    "bytes": 324608,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-reviews-390.png",
+    "bytes": 121307,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-viewport-1440.png",
+    "bytes": 717906,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/en-viewport-390.png",
+    "bytes": 128870,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/reference/measurements.json",
+    "bytes": 29752,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-contact-1440.png",
+    "bytes": 183946,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-contact-200-percent-reflow.png",
+    "bytes": 376885,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-contact-390.png",
+    "bytes": 138258,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-footer-1440.png",
+    "bytes": 45843,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-footer-390.png",
+    "bytes": 43534,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-header-1440.png",
+    "bytes": 14670,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-header-390.png",
+    "bytes": 5527,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-index-1440.png",
+    "bytes": 1740206,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-index-390.png",
+    "bytes": 1369889,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-mobile-menu.png",
+    "bytes": 95788,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-navbar-1440.png",
+    "bytes": 13988,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/ar-navbar-390.png",
+    "bytes": 5282,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/behavior-final/ar-contact-200-percent-reflow.png",
+    "bytes": 376848,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/behavior-final/ar-mobile-menu.png",
+    "bytes": 91891,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/behavior-final/browser-report.json",
+    "bytes": 838,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/behavior-final/en-mobile-menu.png",
+    "bytes": 65096,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/ar-before-after.png",
+    "bytes": 120586,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/ar-footer-retina.png",
+    "bytes": 98481,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/ar-header-retina.png",
+    "bytes": 10420,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/ar-reference-company.png",
+    "bytes": 130438,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/en-before-after.png",
+    "bytes": 137297,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/en-footer-retina.png",
+    "bytes": 120458,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/en-header-retina.png",
+    "bytes": 11013,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/en-reference-company.png",
+    "bytes": 145862,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/icon-http-report.json",
+    "bytes": 2116,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/native-icon-preview.png",
+    "bytes": 17697,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/branding/source-symbol-comparison.png",
+    "bytes": 85564,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/browser-report.json",
+    "bytes": 1068,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/cross-browser-report.json",
+    "bytes": 525,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-contact-1440.png",
+    "bytes": 211442,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-contact-390.png",
+    "bytes": 156457,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-footer-1440.png",
+    "bytes": 55334,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-footer-390.png",
+    "bytes": 50837,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-header-1440.png",
+    "bytes": 15332,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-header-390.png",
+    "bytes": 5466,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-index-1440.png",
+    "bytes": 1835916,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-index-390.png",
+    "bytes": 1505839,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-mobile-menu.png",
+    "bytes": 53591,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-navbar-1440.png",
+    "bytes": 14621,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/en-navbar-390.png",
+    "bytes": 5213,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/lighthouse/ar-contact.json",
+    "bytes": 464487,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/lighthouse/ar-index.json",
+    "bytes": 734001,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/lighthouse/en-contact.json",
+    "bytes": 497352,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/lighthouse/en-index.json",
+    "bytes": 829927,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/lighthouse/scores.json",
+    "bytes": 3639,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/menu-motion-report.json",
+    "bytes": 161,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-after/unsupported-api-report.json",
+    "bytes": 445,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-contact-1440.png",
+    "bytes": 197380,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-contact-390.png",
+    "bytes": 149257,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-footer-1440.png",
+    "bytes": 58274,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-footer-390.png",
+    "bytes": 55159,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-header-1440.png",
+    "bytes": 15730,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-header-390.png",
+    "bytes": 5790,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-home-1440.png",
+    "bytes": 1753920,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-home-390.png",
+    "bytes": 1381807,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-menu-390.png",
+    "bytes": 26470,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-navbar-1440.png",
+    "bytes": 15049,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/ar-navbar-390.png",
+    "bytes": 5561,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-contact-1440.png",
+    "bytes": 224744,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-contact-390.png",
+    "bytes": 167600,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-footer-1440.png",
+    "bytes": 67450,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-footer-390.png",
+    "bytes": 62375,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-header-1440.png",
+    "bytes": 16122,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-header-390.png",
+    "bytes": 5804,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-home-1440.png",
+    "bytes": 1848885,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-home-390.png",
+    "bytes": 1517788,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-menu-390.png",
+    "bytes": 28343,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-navbar-1440.png",
+    "bytes": 15448,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/upgrade-before/en-navbar-390.png",
+    "bytes": 5561,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/404-desktop.jpg",
+    "bytes": 55564,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/404-mobile.jpg",
+    "bytes": 28180,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-404-desktop.jpg",
+    "bytes": 46839,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-404-mobile.jpg",
+    "bytes": 23239,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-about-desktop.jpg",
+    "bytes": 56091,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-about-mobile.jpg",
+    "bytes": 26474,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-contact-320.jpg",
+    "bytes": 28472,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-contact-768.jpg",
+    "bytes": 54258,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-contact-desktop.jpg",
+    "bytes": 68908,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-contact-mobile.jpg",
+    "bytes": 31264,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-email-review-desktop.jpg",
+    "bytes": 67510,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-home-final-mobile.jpg",
+    "bytes": 29378,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-index-320.jpg",
+    "bytes": 24886,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-index-768.jpg",
+    "bytes": 43157,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-index-desktop.jpg",
+    "bytes": 58413,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-index-mobile.jpg",
+    "bytes": 27472,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-privacy-desktop.jpg",
+    "bytes": 70847,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-privacy-mobile.jpg",
+    "bytes": 35624,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-process-desktop.jpg",
+    "bytes": 49970,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-process-mobile.jpg",
+    "bytes": 28126,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-services-desktop.jpg",
+    "bytes": 58480,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/ar-services-mobile.jpg",
+    "bytes": 28276,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-404-desktop.jpg",
+    "bytes": 55556,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-404-mobile.jpg",
+    "bytes": 28180,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-about-desktop.jpg",
+    "bytes": 81020,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-about-mobile.jpg",
+    "bytes": 35841,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-contact-320.jpg",
+    "bytes": 33796,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-contact-768.jpg",
+    "bytes": 66013,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-contact-desktop.jpg",
+    "bytes": 83736,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-contact-mobile.jpg",
+    "bytes": 38842,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-email-review-desktop.jpg",
+    "bytes": 87261,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-home-final-desktop.jpg",
+    "bytes": 84387,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-index-320.jpg",
+    "bytes": 31723,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-index-768.jpg",
+    "bytes": 57719,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-index-desktop.jpg",
+    "bytes": 79652,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-index-mobile.jpg",
+    "bytes": 34075,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-privacy-desktop.jpg",
+    "bytes": 85873,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-privacy-mobile.jpg",
+    "bytes": 44804,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-process-desktop.jpg",
+    "bytes": 69614,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-process-mobile.jpg",
+    "bytes": 34719,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-services-desktop.jpg",
+    "bytes": 77151,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/en-services-mobile.jpg",
+    "bytes": 38706,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/index-desktop.jpg",
+    "bytes": 79652,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/index-mobile.jpg",
+    "bytes": 33948,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/interaction-report.json",
+    "bytes": 3832,
+    "authority": "historical"
+  },
+  {
+    "path": "screenshots/vanilla/layout-report.json",
+    "bytes": 14167,
+    "authority": "historical"
+  }
+]

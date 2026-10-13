@@ -1,0 +1,14 @@
+{
+  "base": "http://127.0.0.1:4318",
+  "checks": [
+    "Native navigation, Escape/focus, landscape scrolling, resize, skip link, FAQ, search/filters/empty/reset, topics, details dialog, process carousel, project dialog and anchor translation",
+    "Simulated Contact: validation, preselection, same-page CTA, translated values/URL/history, accepted/reset, duplicate prevention, 422/429/502/503/network/timeout, email copy",
+    "Missing fetch/AbortController/crypto: native validation and simulated UTF-8 form submission",
+    "Normal-motion native menu fade closes without blocking background interaction",
+    "Rapid locale/style race, failed RTL style feedback, partial-script failure/native fallback, no-JS, reduced motion and 200% equivalent reflow"
+  ],
+  "errors": [],
+  "axe": [],
+  "screenshots": [],
+  "simulatedContact": true
+}

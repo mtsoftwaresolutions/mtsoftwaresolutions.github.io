@@ -1,0 +1,156 @@
+[
+  {
+    "page": "en/index",
+    "scores": {
+      "performance": 90,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "1.1 s",
+      "largest-contentful-paint": "1.9 s",
+      "cumulative-layout-shift": "0",
+      "total-blocking-time": "0 ms"
+    },
+    "issues": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "value": "Est savings of 29 KiB"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "id": "lcp-breakdown-insight",
+        "title": "LCP breakdown"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "value": "Est savings of 450 ms"
+      }
+    ]
+  },
+  {
+    "page": "en/contact",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "1.1 s",
+      "largest-contentful-paint": "1.8 s",
+      "cumulative-layout-shift": "0",
+      "total-blocking-time": "0 ms"
+    },
+    "issues": [
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "value": "4.3 s"
+      },
+      {
+        "id": "bootup-time",
+        "title": "Reduce JavaScript execution time",
+        "value": "3.9 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "value": "Est savings of 29 KiB"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "value": "Est savings of 410 ms"
+      }
+    ]
+  },
+  {
+    "page": "ar/index",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "1.8 s",
+      "largest-contentful-paint": "2.6 s",
+      "cumulative-layout-shift": "0.046",
+      "total-blocking-time": "0 ms"
+    },
+    "issues": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "value": "Est savings of 29 KiB"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "value": "Est savings of 1,160 ms"
+      }
+    ]
+  },
+  {
+    "page": "ar/contact",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": "1.5 s",
+      "largest-contentful-paint": "2.4 s",
+      "cumulative-layout-shift": "0.051",
+      "total-blocking-time": "0 ms"
+    },
+    "issues": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "value": "Est savings of 29 KiB"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "value": "Est savings of 880 ms"
+      }
+    ]
+  }
+]

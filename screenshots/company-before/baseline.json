@@ -1,0 +1,866 @@
+[
+  {
+    "lang": "en",
+    "route": "index",
+    "width": 390,
+    "height": 14035,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "hero",
+        "height": 647
+      },
+      {
+        "id": "solutions",
+        "class": "solutions-section",
+        "height": 2360
+      },
+      {
+        "id": "catalog",
+        "class": "section catalog-section",
+        "height": 5778
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 1300
+      },
+      {
+        "id": "approach",
+        "class": "section process-carousel-section",
+        "height": 863
+      },
+      {
+        "id": "",
+        "class": "section engagement-section",
+        "height": 811
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 677
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 514
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "index",
+    "width": 1440,
+    "height": 7790,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "hero",
+        "height": 582
+      },
+      {
+        "id": "solutions",
+        "class": "solutions-section",
+        "height": 1077
+      },
+      {
+        "id": "catalog",
+        "class": "section catalog-section",
+        "height": 2562
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 771
+      },
+      {
+        "id": "approach",
+        "class": "section process-carousel-section",
+        "height": 808
+      },
+      {
+        "id": "",
+        "class": "section engagement-section",
+        "height": 500
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 461
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "services",
+    "width": 390,
+    "height": 14967,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 337
+      },
+      {
+        "id": "service-catalog",
+        "class": "section catalog-section",
+        "height": 5778
+      },
+      {
+        "id": "business",
+        "class": "section service-group ",
+        "height": 1830
+      },
+      {
+        "id": "mobile",
+        "class": "section service-group alternate",
+        "height": 1010
+      },
+      {
+        "id": "connected",
+        "class": "section service-group ",
+        "height": 1713
+      },
+      {
+        "id": "operations",
+        "class": "section service-group alternate",
+        "height": 2428
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 514
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "services",
+    "width": 1440,
+    "height": 8099,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 369
+      },
+      {
+        "id": "service-catalog",
+        "class": "section catalog-section",
+        "height": 2562
+      },
+      {
+        "id": "business",
+        "class": "section service-group ",
+        "height": 1038
+      },
+      {
+        "id": "mobile",
+        "class": "section service-group alternate",
+        "height": 637
+      },
+      {
+        "id": "connected",
+        "class": "section service-group ",
+        "height": 1012
+      },
+      {
+        "id": "operations",
+        "class": "section service-group alternate",
+        "height": 1362
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "about",
+    "width": 390,
+    "height": 6264,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 466
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 1300
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1118
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 1781
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 514
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "about",
+    "width": 1440,
+    "height": 4027,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 479
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 771
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 788
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 961
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "process",
+    "width": 390,
+    "height": 4771,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 379
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1957
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 474
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 362
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 514
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "process",
+    "width": 1440,
+    "height": 3310,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 450
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1190
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 306
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 335
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "contact",
+    "width": 390,
+    "height": 2926,
+    "header": 81,
+    "name": 885.109375,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section contact-section",
+        "height": 1841
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "contact",
+    "width": 1440,
+    "height": 1656,
+    "header": 81,
+    "name": 302.703125,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section contact-section",
+        "height": 1030
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "privacy",
+    "width": 390,
+    "height": 2730,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 308
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1337
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "privacy",
+    "width": 1440,
+    "height": 1915,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 421
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 868
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "404",
+    "width": 390,
+    "height": 1704,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section not-found",
+        "height": 620
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "route": "404",
+    "width": 1440,
+    "height": 1337,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section not-found",
+        "height": 711
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "index",
+    "width": 390,
+    "height": 13604,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "hero",
+        "height": 637
+      },
+      {
+        "id": "solutions",
+        "class": "solutions-section",
+        "height": 2332
+      },
+      {
+        "id": "catalog",
+        "class": "section catalog-section",
+        "height": 5563
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 1271
+      },
+      {
+        "id": "approach",
+        "class": "section process-carousel-section",
+        "height": 807
+      },
+      {
+        "id": "",
+        "class": "section engagement-section",
+        "height": 782
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 677
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 451
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "index",
+    "width": 1440,
+    "height": 7661,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "hero",
+        "height": 610
+      },
+      {
+        "id": "solutions",
+        "class": "solutions-section",
+        "height": 990
+      },
+      {
+        "id": "catalog",
+        "class": "section catalog-section",
+        "height": 2551
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 742
+      },
+      {
+        "id": "approach",
+        "class": "section process-carousel-section",
+        "height": 780
+      },
+      {
+        "id": "",
+        "class": "section engagement-section",
+        "height": 500
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 461
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "services",
+    "width": 390,
+    "height": 13747,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 337
+      },
+      {
+        "id": "service-catalog",
+        "class": "section catalog-section",
+        "height": 5563
+      },
+      {
+        "id": "business",
+        "class": "section service-group ",
+        "height": 1558
+      },
+      {
+        "id": "mobile",
+        "class": "section service-group alternate",
+        "height": 903
+      },
+      {
+        "id": "connected",
+        "class": "section service-group ",
+        "height": 1561
+      },
+      {
+        "id": "operations",
+        "class": "section service-group alternate",
+        "height": 2139
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 451
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "services",
+    "width": 1440,
+    "height": 7650,
+    "header": 81,
+    "services": 8,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 421
+      },
+      {
+        "id": "service-catalog",
+        "class": "section catalog-section",
+        "height": 2551
+      },
+      {
+        "id": "business",
+        "class": "section service-group ",
+        "height": 883
+      },
+      {
+        "id": "mobile",
+        "class": "section service-group alternate",
+        "height": 611
+      },
+      {
+        "id": "connected",
+        "class": "section service-group ",
+        "height": 909
+      },
+      {
+        "id": "operations",
+        "class": "section service-group alternate",
+        "height": 1155
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "about",
+    "width": 390,
+    "height": 5908,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 394
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 1271
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1002
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 1706
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 451
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "about",
+    "width": 1440,
+    "height": 3786,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 369
+      },
+      {
+        "id": "company",
+        "class": "section company-section",
+        "height": 742
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 788
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 858
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "process",
+    "width": 390,
+    "height": 4434,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 308
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1813
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 445
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 333
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 451
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "process",
+    "width": 1440,
+    "height": 3247,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 421
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1190
+      },
+      {
+        "id": "",
+        "class": "section alternate",
+        "height": 301
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 306
+      },
+      {
+        "id": "",
+        "class": "invitation",
+        "height": 402
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "contact",
+    "width": 390,
+    "height": 2959,
+    "header": 81,
+    "name": 856.3125,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section contact-section",
+        "height": 1875
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "contact",
+    "width": 1440,
+    "height": 1656,
+    "header": 81,
+    "name": 302.703125,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section contact-section",
+        "height": 1030
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "privacy",
+    "width": 390,
+    "height": 2582,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 350
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 1147
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "privacy",
+    "width": 1440,
+    "height": 1888,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "page-intro",
+        "height": 421
+      },
+      {
+        "id": "",
+        "class": "section",
+        "height": 840
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "404",
+    "width": 390,
+    "height": 1704,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section not-found",
+        "height": 620
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "route": "404",
+    "width": 1440,
+    "height": 1337,
+    "header": 81,
+    "services": 0,
+    "sections": [
+      {
+        "id": "",
+        "class": "section not-found",
+        "height": 711
+      }
+    ]
+  }
+]

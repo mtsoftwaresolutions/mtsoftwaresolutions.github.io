@@ -1,0 +1,18 @@
+{
+  "base": "http://127.0.0.1:4320",
+  "checks": [
+    "Eight compact service links, visible full process, no packaging/catalog/promo controls, company-only homepage and Mobile destination, eight unique HTML details, all anchors, service preselection, translated anchors, no duplicate About principles, audiences/sectors, process outputs/reviews and early Contact availability",
+    "Simulated Contact: validation, preselection, same-page CTA, translated values/URL/history, accepted/reset, duplicate prevention, 422/429/502/503/network/timeout, email copy",
+    "Missing fetch/AbortController/crypto: configured native form stays enabled through locale switch; UTF-8 POST simulated",
+    "Contact status network/malformed-response/timeout fail closed with early direct-email fallback",
+    "Normal-motion native menu fade closes without blocking background interaction",
+    "Rapid locale/style race, failed RTL style feedback, partial-script failure/native fallback, no-JS, reduced motion and 200% equivalent reflow",
+    "All six removed showcase URLs return localized 404; rejected scripts/images unavailable",
+    "All eight durable service pages in both languages retain locale links and contact preselection"
+  ],
+  "errors": [],
+  "axe": [],
+  "screenshots": [],
+  "simulatedContact": true,
+  "metrics": []
+}

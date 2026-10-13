@@ -1,0 +1,2073 @@
+{
+  "base": "http://127.0.0.1:4320",
+  "checks": [
+    "324 bilingual page/viewport checks; 72 axe scans; compact header/logo; eager-loaded asset and overflow verification",
+    "Eight compact service links, visible full process, no packaging/catalog/promo controls, coherent Mobile destination, eight unique HTML details, all anchors, service preselection, translated anchors, no duplicate About principles, audiences/sectors, process outputs/reviews and early Contact availability",
+    "Simulated Contact: validation, preselection, same-page CTA, translated values/URL/history, accepted/reset, duplicate prevention, 422/429/502/503/network/timeout, email copy",
+    "Missing fetch/AbortController/crypto: native validation and simulated UTF-8 form submission",
+    "Contact status network/malformed-response/timeout fail closed with early direct-email fallback",
+    "Normal-motion native menu fade closes without blocking background interaction",
+    "Rapid locale/style race, failed RTL style feedback, partial-script failure/native fallback, no-JS, reduced motion and 200% equivalent reflow",
+    "Bilingual internal demo: invalid/literal-text input, sequential states and counts, filter/reset/reload, keyboard focus, no fetch/storage and no-JS initial sample",
+    "All eight durable service pages in both languages retain locale links and contact preselection"
+  ],
+  "errors": [],
+  "axe": [],
+  "screenshots": [
+    "en-index-390.png",
+    "en-index-1440.png",
+    "en-services-390.png",
+    "en-services-1440.png",
+    "en-work-390.png",
+    "en-work-1440.png",
+    "en-process-390.png",
+    "en-process-1440.png",
+    "en-about-390.png",
+    "en-about-1440.png",
+    "en-contact-390.png",
+    "en-contact-1440.png",
+    "en-privacy-390.png",
+    "en-privacy-1440.png",
+    "en-404-390.png",
+    "en-404-1440.png",
+    "en-service-custom-390.png",
+    "en-service-custom-1440.png",
+    "en-service-web-390.png",
+    "en-service-web-1440.png",
+    "en-service-mobile-app-390.png",
+    "en-service-mobile-app-1440.png",
+    "en-service-backend-api-390.png",
+    "en-service-backend-api-1440.png",
+    "en-service-integration-390.png",
+    "en-service-integration-1440.png",
+    "en-service-consulting-390.png",
+    "en-service-consulting-1440.png",
+    "en-service-support-390.png",
+    "en-service-support-1440.png",
+    "en-service-cloud-390.png",
+    "en-service-cloud-1440.png",
+    "en-case-request-workflow-390.png",
+    "en-case-request-workflow-1440.png",
+    "en-request-demo-390.png",
+    "en-request-demo-1440.png",
+    "ar-index-390.png",
+    "ar-index-1440.png",
+    "ar-services-390.png",
+    "ar-services-1440.png",
+    "ar-work-390.png",
+    "ar-work-1440.png",
+    "ar-process-390.png",
+    "ar-process-1440.png",
+    "ar-about-390.png",
+    "ar-about-1440.png",
+    "ar-contact-390.png",
+    "ar-contact-1440.png",
+    "ar-privacy-390.png",
+    "ar-privacy-1440.png",
+    "ar-404-390.png",
+    "ar-404-1440.png",
+    "ar-service-custom-390.png",
+    "ar-service-custom-1440.png",
+    "ar-service-web-390.png",
+    "ar-service-web-1440.png",
+    "ar-service-mobile-app-390.png",
+    "ar-service-mobile-app-1440.png",
+    "ar-service-backend-api-390.png",
+    "ar-service-backend-api-1440.png",
+    "ar-service-integration-390.png",
+    "ar-service-integration-1440.png",
+    "ar-service-consulting-390.png",
+    "ar-service-consulting-1440.png",
+    "ar-service-support-390.png",
+    "ar-service-support-1440.png",
+    "ar-service-cloud-390.png",
+    "ar-service-cloud-1440.png",
+    "ar-case-request-workflow-390.png",
+    "ar-case-request-workflow-1440.png",
+    "ar-request-demo-390.png",
+    "ar-request-demo-1440.png"
+  ],
+  "simulatedContact": true,
+  "metrics": [
+    {
+      "lang": "en",
+      "route": "index",
+      "width": 390,
+      "height": 6643,
+      "sections": [
+        {
+          "id": "",
+          "class": "hero",
+          "height": 794
+        },
+        {
+          "id": "work",
+          "class": "section evidence-summary",
+          "height": 447
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 1476
+        },
+        {
+          "id": "catalog",
+          "class": "section service-overview",
+          "height": 735
+        },
+        {
+          "id": "company",
+          "class": "section company-section",
+          "height": 509
+        },
+        {
+          "id": "approach",
+          "class": "section process-overview",
+          "height": 577
+        },
+        {
+          "id": "",
+          "class": "section faq-section",
+          "height": 523
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "index",
+      "width": 1440,
+      "height": 4479,
+      "sections": [
+        {
+          "id": "",
+          "class": "hero",
+          "height": 566
+        },
+        {
+          "id": "work",
+          "class": "section evidence-summary",
+          "height": 367
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 858
+        },
+        {
+          "id": "catalog",
+          "class": "section service-overview",
+          "height": 401
+        },
+        {
+          "id": "company",
+          "class": "section company-section",
+          "height": 343
+        },
+        {
+          "id": "approach",
+          "class": "section process-overview",
+          "height": 500
+        },
+        {
+          "id": "",
+          "class": "section faq-section",
+          "height": 410
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "services",
+      "width": 390,
+      "height": 6009,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 305
+        },
+        {
+          "id": "service-catalog",
+          "class": "service-navigation",
+          "height": 533
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 1476
+        },
+        {
+          "id": "business",
+          "class": "section service-group ",
+          "height": 528
+        },
+        {
+          "id": "mobile",
+          "class": "section service-group alternate",
+          "height": 317
+        },
+        {
+          "id": "connected",
+          "class": "section service-group ",
+          "height": 528
+        },
+        {
+          "id": "operations",
+          "class": "section service-group alternate",
+          "height": 740
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "services",
+      "width": 1440,
+      "height": 4102,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "service-catalog",
+          "class": "service-navigation",
+          "height": 292
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 858
+        },
+        {
+          "id": "business",
+          "class": "section service-group ",
+          "height": 415
+        },
+        {
+          "id": "mobile",
+          "class": "section service-group alternate",
+          "height": 288
+        },
+        {
+          "id": "connected",
+          "class": "section service-group ",
+          "height": 415
+        },
+        {
+          "id": "operations",
+          "class": "section service-group alternate",
+          "height": 542
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "work",
+      "width": 390,
+      "height": 2633,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 803
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "work",
+      "width": 1440,
+      "height": 1829,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 565
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "process",
+      "width": 390,
+      "height": 5460,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 305
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1536
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 716
+        },
+        {
+          "id": "questions",
+          "class": "section alternate",
+          "height": 1164
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "process",
+      "width": 1440,
+      "height": 3842,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 944
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 463
+        },
+        {
+          "id": "questions",
+          "class": "section alternate",
+          "height": 1040
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "about",
+      "width": 390,
+      "height": 6166,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 377
+        },
+        {
+          "id": "",
+          "class": "section company-section",
+          "height": 746
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 2572
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 825
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "about",
+      "width": 1440,
+      "height": 3538,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 327
+        },
+        {
+          "id": "",
+          "class": "section company-section",
+          "height": 457
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1234
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 421
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 390,
+      "height": 2405,
+      "name": 713.734375,
+      "sections": [
+        {
+          "id": "",
+          "class": "section contact-section",
+          "height": 1267
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1440,
+      "height": 1483,
+      "name": 633.265625,
+      "sections": [
+        {
+          "id": "",
+          "class": "section contact-section",
+          "height": 802
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "privacy",
+      "width": 390,
+      "height": 2734,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1348
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "privacy",
+      "width": 1440,
+      "height": 1830,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 298
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 852
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "404",
+      "width": 390,
+      "height": 1651,
+      "sections": [
+        {
+          "id": "",
+          "class": "section not-found",
+          "height": 513
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "404",
+      "width": 1440,
+      "height": 1368,
+      "sections": [
+        {
+          "id": "",
+          "class": "section not-found",
+          "height": 687
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-custom",
+      "width": 390,
+      "height": 3911,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1326
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 682
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-custom",
+      "width": 1440,
+      "height": 2728,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 714
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 677
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-web",
+      "width": 390,
+      "height": 3856,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1272
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 682
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-web",
+      "width": 1440,
+      "height": 2644,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 659
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 677
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-mobile-app",
+      "width": 390,
+      "height": 3574,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1244
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 427
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-mobile-app",
+      "width": 1440,
+      "height": 2477,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 686
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 482
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-backend-api",
+      "width": 390,
+      "height": 3656,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1326
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 427
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-backend-api",
+      "width": 1440,
+      "height": 2533,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 714
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 482
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-integration",
+      "width": 390,
+      "height": 3559,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 234
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1272
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 427
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-integration",
+      "width": 1440,
+      "height": 2451,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 482
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-consulting",
+      "width": 390,
+      "height": 3586,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 234
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1299
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 427
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-consulting",
+      "width": 1440,
+      "height": 2533,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 714
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 482
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-support",
+      "width": 390,
+      "height": 3574,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1244
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 427
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-support",
+      "width": 1440,
+      "height": 2477,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 686
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 482
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-cloud",
+      "width": 390,
+      "height": 3602,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1272
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 427
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "service-cloud",
+      "width": 1440,
+      "height": 2477,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 686
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 482
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "case-request-workflow",
+      "width": 390,
+      "height": 3390,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1560
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 445
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "case-request-workflow",
+      "width": 1440,
+      "height": 2359,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 298
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1027
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "request-demo",
+      "width": 390,
+      "height": 2798,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 263
+        },
+        {
+          "id": "",
+          "class": "section demo-section",
+          "height": 1398
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "request-demo",
+      "width": 1440,
+      "height": 1813,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section demo-section",
+          "height": 874
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "index",
+      "width": 390,
+      "height": 6253,
+      "sections": [
+        {
+          "id": "",
+          "class": "hero",
+          "height": 788
+        },
+        {
+          "id": "work",
+          "class": "section evidence-summary",
+          "height": 419
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 1290
+        },
+        {
+          "id": "catalog",
+          "class": "section service-overview",
+          "height": 700
+        },
+        {
+          "id": "company",
+          "class": "section company-section",
+          "height": 475
+        },
+        {
+          "id": "approach",
+          "class": "section process-overview",
+          "height": 548
+        },
+        {
+          "id": "",
+          "class": "section faq-section",
+          "height": 490
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "index",
+      "width": 1440,
+      "height": 4376,
+      "sections": [
+        {
+          "id": "",
+          "class": "hero",
+          "height": 566
+        },
+        {
+          "id": "work",
+          "class": "section evidence-summary",
+          "height": 338
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 858
+        },
+        {
+          "id": "catalog",
+          "class": "section service-overview",
+          "height": 401
+        },
+        {
+          "id": "company",
+          "class": "section company-section",
+          "height": 325
+        },
+        {
+          "id": "approach",
+          "class": "section process-overview",
+          "height": 450
+        },
+        {
+          "id": "",
+          "class": "section faq-section",
+          "height": 410
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "services",
+      "width": 390,
+      "height": 5311,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "service-catalog",
+          "class": "service-navigation",
+          "height": 505
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 1290
+        },
+        {
+          "id": "business",
+          "class": "section service-group ",
+          "height": 424
+        },
+        {
+          "id": "mobile",
+          "class": "section service-group alternate",
+          "height": 265
+        },
+        {
+          "id": "connected",
+          "class": "section service-group ",
+          "height": 424
+        },
+        {
+          "id": "operations",
+          "class": "section service-group alternate",
+          "height": 584
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "services",
+      "width": 1440,
+      "height": 4165,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 327
+        },
+        {
+          "id": "service-catalog",
+          "class": "service-navigation",
+          "height": 292
+        },
+        {
+          "id": "solutions",
+          "class": "section needs-section",
+          "height": 858
+        },
+        {
+          "id": "business",
+          "class": "section service-group ",
+          "height": 415
+        },
+        {
+          "id": "mobile",
+          "class": "section service-group alternate",
+          "height": 288
+        },
+        {
+          "id": "connected",
+          "class": "section service-group ",
+          "height": 415
+        },
+        {
+          "id": "operations",
+          "class": "section service-group alternate",
+          "height": 542
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "work",
+      "width": 390,
+      "height": 2548,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 758
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "work",
+      "width": 1440,
+      "height": 1824,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 565
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "process",
+      "width": 390,
+      "height": 5058,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1355
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 658
+        },
+        {
+          "id": "questions",
+          "class": "section alternate",
+          "height": 1070
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "process",
+      "width": 1440,
+      "height": 3756,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 944
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 434
+        },
+        {
+          "id": "questions",
+          "class": "section alternate",
+          "height": 1040
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "about",
+      "width": 390,
+      "height": 5632,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 305
+        },
+        {
+          "id": "",
+          "class": "section company-section",
+          "height": 631
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 2420
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 668
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "about",
+      "width": 1440,
+      "height": 3337,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section company-section",
+          "height": 405
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1209
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 370
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "contact",
+      "width": 390,
+      "height": 2307,
+      "name": 647.1875,
+      "sections": [
+        {
+          "id": "",
+          "class": "section contact-section",
+          "height": 1175
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "contact",
+      "width": 1440,
+      "height": 1425,
+      "name": 633.265625,
+      "sections": [
+        {
+          "id": "",
+          "class": "section contact-section",
+          "height": 749
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "privacy",
+      "width": 390,
+      "height": 2581,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 290
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1158
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "privacy",
+      "width": 1440,
+      "height": 1757,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 852
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "404",
+      "width": 390,
+      "height": 1646,
+      "sections": [
+        {
+          "id": "",
+          "class": "section not-found",
+          "height": 513
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "404",
+      "width": 1440,
+      "height": 1363,
+      "sections": [
+        {
+          "id": "",
+          "class": "section not-found",
+          "height": 687
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-custom",
+      "width": 390,
+      "height": 3708,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 277
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1163
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 682
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-custom",
+      "width": 1440,
+      "height": 2612,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 677
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-web",
+      "width": 390,
+      "height": 3665,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 234
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1163
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 682
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-web",
+      "width": 1440,
+      "height": 2612,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 677
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-mobile-app",
+      "width": 390,
+      "height": 3395,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1163
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 398
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-mobile-app",
+      "width": 1440,
+      "height": 2389,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 453
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-backend-api",
+      "width": 390,
+      "height": 3423,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1190
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 398
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-backend-api",
+      "width": 1440,
+      "height": 2457,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 298
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 453
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-integration",
+      "width": 390,
+      "height": 3353,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 205
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1163
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 398
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-integration",
+      "width": 1440,
+      "height": 2389,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 453
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-consulting",
+      "width": 390,
+      "height": 3395,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1163
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 398
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-consulting",
+      "width": 1440,
+      "height": 2389,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 453
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-support",
+      "width": 390,
+      "height": 3326,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 205
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1136
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 398
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-support",
+      "width": 1440,
+      "height": 2389,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 453
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-cloud",
+      "width": 390,
+      "height": 3368,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1136
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 398
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "service-cloud",
+      "width": 1440,
+      "height": 2389,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 230
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 632
+        },
+        {
+          "id": "",
+          "class": "section alternate",
+          "height": 453
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "case-request-workflow",
+      "width": 390,
+      "height": 3192,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 248
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1401
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 410
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "case-request-workflow",
+      "width": 1440,
+      "height": 2354,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 298
+        },
+        {
+          "id": "",
+          "class": "section",
+          "height": 1027
+        },
+        {
+          "id": "",
+          "class": "invitation",
+          "height": 354
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "request-demo",
+      "width": 390,
+      "height": 2742,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 234
+        },
+        {
+          "id": "",
+          "class": "section demo-section",
+          "height": 1376
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "route": "request-demo",
+      "width": 1440,
+      "height": 1808,
+      "sections": [
+        {
+          "id": "",
+          "class": "page-intro",
+          "height": 259
+        },
+        {
+          "id": "",
+          "class": "section demo-section",
+          "height": 874
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Configure SITE_URL and rebuild before production indexing.

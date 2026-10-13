@@ -1,0 +1,18 @@
+
+> mt-software-solutions@2.0.0 test:browsers
+> node scripts/cross-browser.cjs
+
+Firefox: unavailable in this host environment
+WebKit en index 375
+WebKit en index 1440
+WebKit en services 375
+WebKit en services 1440
+WebKit en contact 375
+WebKit en contact 1440
+WebKit ar index 375
+WebKit ar index 1440
+WebKit ar services 375
+WebKit ar services 1440
+WebKit ar contact 375
+WebKit ar contact 1440
+WebKit 26.0: PASS (12 page checks)

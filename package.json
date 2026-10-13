@@ -1,0 +1,31 @@
+{
+  "name": "mt-software-solutions",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Bilingual Bootstrap website with a secure contact endpoint",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.16"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/index.cjs --dev",
+    "build": "node --env-file-if-exists=.env scripts/build.cjs",
+    "start": "node --env-file-if-exists=.env server/index.cjs",
+    "check": "node scripts/check.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "test:browser": "node scripts/browser-check.cjs",
+    "audit": "node scripts/lighthouse.cjs",
+    "test:browsers": "node scripts/cross-browser.cjs",
+    "release": "node --env-file-if-exists=.env scripts/release.cjs"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@resvg/resvg-js": "2.6.2",
+    "esbuild": "0.25.12",
+    "lighthouse": "13.5.0",
+    "playwright": "1.58.2"
+  }
+}

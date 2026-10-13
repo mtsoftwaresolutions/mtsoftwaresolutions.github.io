@@ -1,0 +1,24 @@
+[
+  {
+    "engine": "Firefox",
+    "pages": 0,
+    "errors": [
+      "browserType.launch: Timeout 20000ms exceeded."
+    ],
+    "checks": [],
+    "status": "unavailable"
+  },
+  {
+    "engine": "WebKit",
+    "pages": 60,
+    "errors": [],
+    "checks": [
+      "Desktop/mobile all 30 bilingual locale routes",
+      "Logo and overflow",
+      "Menu/Escape, FAQ and service anchors",
+      "Simulated contact success, language preservation and email-copy UI"
+    ],
+    "status": "passed",
+    "version": "26.0"
+  }
+]

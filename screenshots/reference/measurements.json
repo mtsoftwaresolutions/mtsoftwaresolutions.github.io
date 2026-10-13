@@ -1,0 +1,764 @@
+[
+  {
+    "lang": "ar",
+    "width": 390,
+    "header": {
+      "selector": "HEADER.site-header",
+      "width": 375,
+      "height": 81,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "12px 0px",
+      "background": "rgba(248, 246, 242, 0.92)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "hero": {
+      "selector": "SECTION.hero",
+      "width": 375,
+      "height": 683.25,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "100px 0px 40px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "h1": {
+      "selector": "H1.",
+      "width": 343,
+      "height": 157.921875,
+      "font": "700 39px / 52.65px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "gap": "normal"
+    },
+    "sections": [
+      {
+        "selector": "SECTION.hero",
+        "width": 375,
+        "height": 683.25,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "100px 0px 40px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.learning-paths",
+        "width": 375,
+        "height": 2392.109375,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "24px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.courses-section section",
+        "width": 375,
+        "height": 4874.203125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.instructor-section section",
+        "width": 375,
+        "height": 1462.8125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(17, 17, 17)",
+        "color": "rgb(255, 255, 255)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.reviews-section section",
+        "width": 375,
+        "height": 847.921875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.payment-section section",
+        "width": 375,
+        "height": 1517.625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.faq-section section",
+        "width": 0,
+        "height": 0,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.contact-section section",
+        "width": 375,
+        "height": 442.359375,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "0px 0px 48px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "width": 768,
+    "header": {
+      "selector": "HEADER.site-header",
+      "width": 753,
+      "height": 81,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "12px 0px",
+      "background": "rgba(248, 246, 242, 0.92)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "hero": {
+      "selector": "SECTION.hero",
+      "width": 753,
+      "height": 599.421875,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "120px 0px 48px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "h1": {
+      "selector": "H1.",
+      "width": 555.9375,
+      "height": 99.5,
+      "font": "700 36.864px / 49.7664px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "gap": "normal"
+    },
+    "sections": [
+      {
+        "selector": "SECTION.hero",
+        "width": 753,
+        "height": 599.421875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "120px 0px 48px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.learning-paths",
+        "width": 753,
+        "height": 1512.71875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "24px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.courses-section section",
+        "width": 753,
+        "height": 2911.515625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.instructor-section section",
+        "width": 753,
+        "height": 1410.234375,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(17, 17, 17)",
+        "color": "rgb(255, 255, 255)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.reviews-section section",
+        "width": 753,
+        "height": 788.1875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.payment-section section",
+        "width": 753,
+        "height": 976.71875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.faq-section section",
+        "width": 0,
+        "height": 0,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.contact-section section",
+        "width": 753,
+        "height": 327.140625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "0px 0px 48px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      }
+    ]
+  },
+  {
+    "lang": "ar",
+    "width": 1440,
+    "header": {
+      "selector": "HEADER.site-header",
+      "width": 1425,
+      "height": 81,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "12px 0px",
+      "background": "rgba(248, 246, 242, 0.92)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "hero": {
+      "selector": "SECTION.hero",
+      "width": 1425,
+      "height": 722.625,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "136px 0px 64px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "h1": {
+      "selector": "H1.",
+      "width": 1042.5,
+      "height": 186.625,
+      "font": "700 69.12px / 93.312px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "gap": "normal"
+    },
+    "sections": [
+      {
+        "selector": "SECTION.hero",
+        "width": 1425,
+        "height": 722.625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "136px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.learning-paths",
+        "width": 1425,
+        "height": 1021.359375,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "24px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.courses-section section",
+        "width": 1425,
+        "height": 2294.015625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.instructor-section section",
+        "width": 1425,
+        "height": 942.5,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgb(17, 17, 17)",
+        "color": "rgb(255, 255, 255)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.reviews-section section",
+        "width": 1425,
+        "height": 926.953125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.payment-section section",
+        "width": 1425,
+        "height": 896.140625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.faq-section section",
+        "width": 0,
+        "height": 0,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.contact-section section",
+        "width": 1425,
+        "height": 395.078125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "0px 0px 72px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "header": {
+      "selector": "HEADER.site-header",
+      "width": 375,
+      "height": 81,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "12px 0px",
+      "background": "rgba(248, 246, 242, 0.92)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "hero": {
+      "selector": "SECTION.hero",
+      "width": 375,
+      "height": 689.640625,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "100px 0px 40px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "h1": {
+      "selector": "H1.",
+      "width": 343,
+      "height": 126.328125,
+      "font": "700 39px / 42.12px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "gap": "normal"
+    },
+    "sections": [
+      {
+        "selector": "SECTION.hero",
+        "width": 375,
+        "height": 689.640625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "100px 0px 40px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.learning-paths",
+        "width": 375,
+        "height": 2508.734375,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "24px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.courses-section section",
+        "width": 375,
+        "height": 4735.640625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.instructor-section section",
+        "width": 375,
+        "height": 1519.796875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(17, 17, 17)",
+        "color": "rgb(255, 255, 255)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.reviews-section section",
+        "width": 375,
+        "height": 847.921875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.payment-section section",
+        "width": 375,
+        "height": 1647.71875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.faq-section section",
+        "width": 0,
+        "height": 0,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.contact-section section",
+        "width": 375,
+        "height": 469.546875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "0px 0px 48px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "header": {
+      "selector": "HEADER.site-header",
+      "width": 753,
+      "height": 81,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "12px 0px",
+      "background": "rgba(248, 246, 242, 0.92)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "hero": {
+      "selector": "SECTION.hero",
+      "width": 753,
+      "height": 628.5,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "120px 0px 48px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "h1": {
+      "selector": "H1.",
+      "width": 555.9375,
+      "height": 84.75,
+      "font": "700 36.864px / 42.3936px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "gap": "normal"
+    },
+    "sections": [
+      {
+        "selector": "SECTION.hero",
+        "width": 753,
+        "height": 628.5,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "120px 0px 48px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.learning-paths",
+        "width": 753,
+        "height": 1512.71875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "24px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.courses-section section",
+        "width": 753,
+        "height": 2775.578125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.instructor-section section",
+        "width": 753,
+        "height": 1410.234375,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(17, 17, 17)",
+        "color": "rgb(255, 255, 255)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.reviews-section section",
+        "width": 753,
+        "height": 788.1875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.payment-section section",
+        "width": 753,
+        "height": 1051.5,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.faq-section section",
+        "width": 0,
+        "height": 0,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "48px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.contact-section section",
+        "width": 753,
+        "height": 354.328125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "0px 0px 48px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "header": {
+      "selector": "HEADER.site-header",
+      "width": 1425,
+      "height": 81,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "12px 0px",
+      "background": "rgba(248, 246, 242, 0.92)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "hero": {
+      "selector": "SECTION.hero",
+      "width": 1425,
+      "height": 738.796875,
+      "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "136px 0px 64px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 36, 36)",
+      "gap": "normal"
+    },
+    "h1": {
+      "selector": "H1.",
+      "width": 1042.5,
+      "height": 158.96875,
+      "font": "700 69.12px / 79.488px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+      "padding": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "gap": "normal"
+    },
+    "sections": [
+      {
+        "selector": "SECTION.hero",
+        "width": 1425,
+        "height": 738.796875,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "136px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.learning-paths",
+        "width": 1425,
+        "height": 1083.265625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "24px 0px 64px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.courses-section section",
+        "width": 1425,
+        "height": 2323.265625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.instructor-section section",
+        "width": 1425,
+        "height": 942.5,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgb(17, 17, 17)",
+        "color": "rgb(255, 255, 255)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.reviews-section section",
+        "width": 1425,
+        "height": 926.953125,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.payment-section section",
+        "width": 1425,
+        "height": 896.140625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.faq-section section",
+        "width": 0,
+        "height": 0,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "72px 0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      },
+      {
+        "selector": "SECTION.contact-section section",
+        "width": 1425,
+        "height": 422.265625,
+        "font": "16px / 27.2px -apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Tahoma, Arial, sans-serif",
+        "padding": "0px 0px 72px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(36, 36, 36)",
+        "gap": "normal"
+      }
+    ]
+  }
+]

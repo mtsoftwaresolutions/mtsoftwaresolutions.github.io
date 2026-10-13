@@ -1,0 +1,23 @@
+[
+  {
+    "missingAPI": "AbortController",
+    "nativeValidation": true,
+    "nativeSubmission": true,
+    "simulatedResponse": true,
+    "errors": []
+  },
+  {
+    "missingAPI": "fetch",
+    "nativeValidation": true,
+    "nativeSubmission": true,
+    "simulatedResponse": true,
+    "errors": []
+  },
+  {
+    "missingAPI": "crypto",
+    "nativeValidation": true,
+    "nativeSubmission": true,
+    "simulatedResponse": true,
+    "errors": []
+  }
+]
