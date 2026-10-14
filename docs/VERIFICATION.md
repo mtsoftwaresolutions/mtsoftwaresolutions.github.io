@@ -1,67 +1,95 @@
-> Latest bounded company-details update: see [COMPANY-DETAILS.md](COMPANY-DETAILS.md), `screenshots/company-details-after/browser-report.json` and `company-details-report.json`. Phone/location/social/founding facts and metadata are now confirmed. The redesign metrics and Lighthouse results below describe the previous broader correction and were not rerun as new performance claims for this update.
+> Repository cleanup: the recorded evidence and private archives below are now preserved outside the project. See REPOSITORY-CLEANUP.md for the exact location. These are historical paths, not missing runtime dependencies.
 
-# Verification — company presentation correction, 11 October 2026
+# Verification — corporate-only correction, 14 October 2026
 
-**Prepared for production configuration.** All results below belong to the current company correction. Earlier reference/upgrade reports are historical. No live deployment, actual provider acceptance, inbox receipt or remote Redis transaction has occurred.
+**Local correction verified; external launch configuration pending.** The public site introduces the company and services only. No portfolio, sample application, internal demo, case study, mock product or project screenshot remains. This task did not publish, commit/push, change accounts or send real inquiries. Separately configured public hosting has not been assessed.
 
-## Automated checks
+## Actual workspace and recovery
 
-- Build succeeds: 16 generated pages, local Bootstrap 5.3.8, minified public assets. No environment file is present in this checkout; the preview was explicitly started with an empty provider configuration and a non-sending injected limiter.
-- `npm run check`: 16 pages, 732 links/anchors, 112 asset references; language/direction, one matching Bootstrap stylesheet/bundle, source/embedded logo hashes, icon paths and private-file build boundaries.
-- `npm test`: 13 test groups passed. Includes branding/ICO/source silhouette, isolated production metadata/CSP/deep 404, validation/UTF-8/phone/length/honeypot, provider recipient/From/Reply-To/idempotency, simulated provider errors/timeout, SQLite persistence and simulated atomic Redis, origin/content type/payload/private boundaries. New presentation guards verify canonical service details, visible process, early availability and no regeneration/deployment of retired artwork.
-- Chromium 151: 14 locale routes × 9 widths (320, 375, 390, 768, 991, 992, 1024, 1440, 1920): **126 layouts**, no horizontal overflow or page errors. **28 axe WCAG A/AA scans**, no recorded violations. Header 81px; proportional compact mark and LTR wordmark.
-- Behavioral tests: mobile menu/landscape reachability, Escape/focus/resize/scroll lock, skip link and FAQ; eight service destinations/unique details/all group anchors, Mobile discoverability, preselection; single About principles, audience/sector visibility and process outputs/reviews.
-- Contact frontend tests intercept API requests: client and server-like field errors, submitting/duplicate prevention, acceptance/reset, 422/429/502/503/network/timeout, failed-value retention, copy email and native UTF-8 POST when fetch/AbortController/crypto is missing. These are **simulations**, never evidence of real delivery.
-- Contact availability tests cover missing configuration, network failure, malformed response and five-second timeout; all fail closed with direct email before the fields.
-- Language tests cover draft/URL/history preservation, rapid duplicate selection, cancellation back to the active language, final RTL stylesheet consistency, reload and failed stylesheet feedback. No draft browser storage is used.
-- No-JS and separate app/Bootstrap/content/views/contact-rules script failures retain one usable native navigation. Reduced-motion has no running animations. 200% **equivalent reflow** uses 720 CSS pixels/2× scale, not an actual browser-toolbar zoom test.
-- Additional header transition measurements at 1119/1120/1279/1280/1440/1920px and 320/375/390px brand/toggle checks found no collision; typography is not shrunk to force a 992px desktop layout.
-- WebKit 26.0: 12 English/Arabic Home/Services/Contact desktop/mobile checks passed, including logo/overflow, menu/FAQ/anchors and simulated Contact/locale/copy. Firefox launch timed out on this host; `test:browsers` exits nonzero and records **unavailable**, not a pass. No real Safari device or installed Firefox release is claimed.
+The project was relocated by the owner to `/Users/mohamedtamer0/Desktop/Work/mtsoftwaresolutions.github.io` and now has an owner-created Git checkout. Work continued there after confirming the matching source, routes and correction documents. Existing owner changes, including the license and tracked metadata files, were preserved.
 
-## Visual review and measurements
+Current recovery snapshot: `.private/baselines/corporate-resume-before-2026-10-14.tar.gz`, with source commit/inventory and SHA-256 in adjacent JSON. Earlier October 13 archives are absent from this checkout; their prior existence is historical, not a current recovery guarantee. Missing `.gitignore` and empty `.env.example` were restored. No secret values are in that example or the snapshot.
 
-Fresh screenshots cover all seven pages in both languages at 390/1440px; header/logo/footer/menu, focused viewport details, visible process, Contact availability and 2× branding are also retained. Visual review examined the homepage composition, open service rows and details, About/industry layout, all process stages, Contact, Privacy/404 and RTL text/directional treatment. Diagram captions are localized; no package imagery, oversized portrait stage or floating project obstruction remains.
+## Commands and fresh results
 
-Measured total page heights at 390×900 CSS pixels, including the footer:
+| Command / coverage | Result |
+|---|---|
+| `npm run build` | Pass: 32 generated company/service documents, local Bootstrap 5.3.8 and minified allowlisted assets |
+| `npm run check` | Pass: 1,362 links/anchors and 224 asset references; language/RTL, one H1, IDs, logo hashes and private output boundaries |
+| `npm test` | Pass: 20 groups; source/branding, isolated production metadata/CSP, server validation/security/rate/idempotency, timeline, native Contact ordering and showcase removal |
+| `npm run test:browser` | Pass: 390 locale layouts, 60 locale axe scans plus configured Contact scan; additional root/deep-404 rendering and behavioral cases |
+| `npm run test:browsers` | WebKit 26.0 passed 60 desktop/mobile page checks; Firefox unavailable after a 20-second launch timeout. Command exits nonzero for that limitation; Firefox is **not** a pass |
+| `npm run audit` | Pass: six fresh mobile reports for English/Arabic Home, Contact and Web service |
 
-| Page | Before px | After px | Change |
-|---|---:|---:|---|
-| en/index | 14,035 | 7,399 | 47% reduction |
-| en/services | 14,967 | 8,669 | 42% reduction |
-| en/about | 6,264 | 5,024 | 20% reduction |
-| en/process | 4,771 | 4,243 | 11% reduction |
-| en/contact | 2,926 | 3,001 | 3% increase |
-| ar/index | 13,604 | 6,956 | 49% reduction |
-| ar/services | 13,747 | 8,090 | 41% reduction |
-| ar/about | 5,908 | 4,495 | 24% reduction |
-| ar/process | 4,434 | 3,940 | 11% reduction |
-| ar/contact | 2,959 | 2,997 | 1% increase |
+Chromium version for captures/QA: 151.0.7922.34. The locale layout matrix includes all 30 locale documents at 320, 375, 390, 768, 991, 992, 1024, 1119, 1120, 1279, 1280, 1440 and 1920 CSS pixels. It recorded no page errors, broken images or horizontal overflow. The 61 WCAG A/AA scans recorded no violations. These are automated checks, not a comprehensive accessibility/security certification or physical-device test.
 
-Contact total length is slightly greater because availability and preparation guidance remain visible. The actual first field moved from **885px to 631px** in English and **856px to 564px** in Arabic. It follows the availability explanation rather than a lengthy email introduction. No required services or meaningful detail content were hidden to reduce heights.
+## Meaningful behavior checked
 
-## Lighthouse — latest local mobile run
+- All eight service destinations, four group/legacy anchors, service preselection and language counterparts.
+- Corporate Home with confirmed facts, eight capabilities, seven audiences and four visible short process topics; About retains its audiences/sectors without fake people or client claims.
+- All six removed locale showcase URLs return localized 404; their scripts/images are unavailable. Static guards also require removal from shared data, source assets/templates and generated documents. No hidden demo or misleading redirect remains.
+- Root index/404 and unknown nested English/Arabic URLs render at 320/1440 without broken assets or overflow.
+- Mobile menu, short 667×375 landscape navigation, Escape/focus return, skip link, resize state, scroll lock, FAQ and visible keyboard focus.
+- Reduced motion, native no-JS navigation, individual app/vendor/content/views/rules failures and 200% equivalent reflow. Reflow uses a 720 CSS-pixel viewport at 2× device scale; actual browser-toolbar zoom is not claimed.
+- Unconfigured Contact keeps direct email/phone early and the form collapsed/disabled. Network, malformed status and status-timeout cases fail closed.
+- Configured Contact shows enabled fields and a prominent form. DOM/reading/keyboard order matches the displayed priority. Server-generated HTML has the same order without JavaScript.
+- Contact draft, timeline/service, URL/history, RTL/LTR stylesheet and rapid/cancelled/failed language transitions.
+- Intercepted validation, accepted/reset, duplicate/submitting, 422, 429, 502, 503, network and timeout cases preserve failed input. No inquiry contents enter storage or personal-data URLs.
+- Missing fetch/AbortController/crypto retains native validation and an enabled configured form through a locale switch; UTF-8 native POST is intercepted. Provider acceptance, recipient/From/Reply-To and timeline/idempotency are separately covered with injected provider tests.
+- Configuration status describes presence only. No real Resend request, inbox receipt or remote Redis transaction occurred.
+
+## Visual review and page length
+
+Fresh full-page screenshots cover all retained locale pages at 390/1440. Focused viewports cover Home, Services, About, Process, Contact and Web service; configured Contact captures are explicitly simulated. The private before/after gallery compares the October 13 mixed-state baseline with the corrected October 14 output.
+
+Inspection reviewed bilingual first screens, typography/brand/direction, service summaries/details, About/audiences, Process/purchase questions, contact availability/form states, menu/footer and 404/privacy. No project imagery or showcase navigation appears in the final presentation.
+
+Comparable total page heights at 390×900, including footer:
+
+| Locale / page | Before correction px | Corrected px | Reduction |
+|---|---:|---:|---:|
+| en/Home | 6,643 | 5,034 | 24.2% |
+| ar/Home | 6,253 | 4,743 | 24.1% |
+| en/Services | 6,009 | 4,998 | 16.8% |
+| ar/Services | 5,311 | 4,458 | 16.1% |
+| en/About | 6,166 | 5,464 | 11.4% |
+| ar/About | 5,632 | 4,870 | 13.5% |
+| en/Process | 5,460 | 5,405 | 1.0% |
+| ar/Process | 5,058 | 5,008 | 1.0% |
+| en/Contact, unavailable | 2,405 | 2,350 | 2.3% |
+| ar/Contact, unavailable | 2,307 | 2,258 | 2.1% |
+
+The initial October 13 audit's Arabic Home/Services measurements were 7,058/8,144px. They are historical context, not the direct mixed-state baseline above. Process retains useful purchase questions; it was not shortened by concealing those topics.
+
+## Fresh Lighthouse mobile results
 
 | Page | Performance | Accessibility | Best practices | SEO | LCP | CLS | TBT |
 |---|---:|---:|---:|---:|---|---|---|
-| en/index | 100 | 100 | 100 | 66 | 1.7 s | 0.003 | 0 ms |
-| en/contact | 100 | 100 | 100 | 66 | 1.8 s | 0 | 0 ms |
-| ar/index | 100 | 100 | 100 | 66 | 1.7 s | 0 | 0 ms |
-| ar/contact | 100 | 100 | 100 | 66 | 1.7 s | 0 | 0 ms |
+| en/Home | 100 | 100 | 100 | 66 | 1.7s | 0.003 | 0ms |
+| ar/Home | 100 | 100 | 100 | 66 | 1.7s | 0 | 0ms |
+| en/Contact | 100 | 100 | 100 | 66 | 1.7s | 0 | 0ms |
+| ar/Contact | 100 | 100 | 100 | 66 | 1.7s | 0 | 0ms |
+| en/Web service | 100 | 100 | 100 | 66 | 1.7s | 0.003 | 0ms |
+| ar/Web service | 100 | 100 | 100 | 66 | 1.7s | 0 | 0ms |
 
-FCP is 1.1s on all four pages. Contact status space was reserved after an earlier run recorded an English Contact CLS of 0.074; the final run records 0 on both Contact pages. Scores are investigation evidence, not field Core Web Vitals or proof of company suitability.
+FCP was 1.1s on all six. SEO 66 reflects deliberate local indexing protection without a real production origin. No fake domain was used to improve it. The isolated production test verifies canonical/hreflang, 28 sitemap entries, Organization data/CSP and mismatched-origin rejection; that fixture is not deployed.
 
-SEO 66 is expected while SITE_URL is absent and robots intentionally prevents indexing. The isolated production build verifies metadata/sitemap/CSP without publishing a fake domain. Lighthouse still reports approximately 29KiB unused Bootstrap CSS and roughly 410–420ms render-blocking opportunities. Bootstrap is retained as requested rather than replacing it with an unverified pruned build. One English Contact trace also attributes roughly 4s scripting to the document despite zero TBT and a 100 performance score; an independent normal local 5.5-second observation recorded no long tasks. The trace warning is retained, not declared solved or assumed to be field behavior.
+Lighthouse still suggests about 29KiB unused Bootstrap CSS and 380–420ms render-blocking savings. English Contact also reports a scripting/main-thread warning despite zero TBT and a 100 score. A separate normal 5.5-second local observation recorded no long tasks. The warning remains documented; it is not declared fixed or assumed to be field behavior. These are lab measurements, not field Core Web Vitals.
 
-## Evidence locations
+## Evidence and release checks
 
-- `screenshots/company-before/`: fresh baseline pages, header/footer/menu and baseline.json.
-- `screenshots/company-after/`: current bilingual page images, header/footer/menu, browser-report.json, height-comparison.json, cross-browser-report.json, 200% equivalent reflow and normal-contact-tasks.json.
-- `screenshots/company-after/review.html`: side-by-side before/after gallery at matching widths; open locally. This private review file is excluded from the production build.
-- `screenshots/company-after/components/`: focused hero/service/process/contact/privacy/404 viewports, 2× branding and header-breakpoints.json.
-- `screenshots/company-after/lighthouse/`: raw four-page reports and scores.json.
+- `screenshots/corporate-only-2026-10-13/before/`: mixed-state baseline images and metrics.
+- `screenshots/corporate-only-2026-10-14/after/browser-report.json`: final layout/accessibility/behavior outcomes and heights.
+- `cross-browser-report.json`: actual engine coverage and Firefox limitation.
+- `lighthouse/`: six raw reports and scores.
+- `height-comparison.json`, `visual-review-report.json`, `review.html`: comparable measurements, browser version/private simulations and visual review gallery.
+- `.private/logs/`: command output for this continuation.
+- `.private/releases/`: final archives, SHA-256 manifests and extraction verification when assembled.
 
-Screenshots are captured by the browser, not fabricated. Full-page captures may include ordinary sticky-header stitching; focused viewport evidence records actual interaction regions. Native icon bytes/proportions are tested; operating-system home-screen installation and browser-toolbar favicon rendering are not claimed.
+Final release assembly/extraction passed October 14. The archived server itself passed the retained-route, removed-route, private-boundary and unavailable-contact smoke checks; archive/public hashes and extraction passed. See RELEASE-READINESS-2026-10-14.md for the exact private artifact path. Off-device archive/storage backup and a host-specific release switch remain owner operational actions.
 
-## Remaining external work
+## External launch status
 
-Configure the real HTTPS domain/host and sender verification/secret, durable rate-storage topology/salt, proxy/TLS, actual provider acceptance and a controlled receipt test in mtsscorporate@gmail.com. Review Privacy against actual business retention/provider arrangements. No authentication/CMS/admin/inquiry database was added. Startup, build, preview, deployment preparation and rollback are documented in README and PRODUCTION-SETUP.md.
+Local corporate-site corrections and browser checks are complete within the stated engine limitation. Real HTTPS domain/hosting/TLS/proxy, verified sender/server secrets, persistent SQLite or distributed Redis with stable salt, approved retention/provider/log arrangements and specifically authorized provider acceptance **and** inbox receipt remain pending. No claims about live hosting, DNS, public indexing, remote storage or mailbox delivery are made.
+
+Optional verified people biographies may be added later. Private client projects remain excluded under owner instruction, not missing launch content. No prices, guarantees, team claims, client results or operational policies were invented.

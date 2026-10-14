@@ -59,7 +59,7 @@ After a deployment is explicitly authorized:
 - Rerun browser checks against TEST_URL set to the production origin; Contact requests in that suite are simulated and do not send real emails.
 - Review the Privacy wording against the business's actual retention and provider arrangements.
 
-Retain the previous deployment artifact and environment settings. To roll back, restore the prior artifact/server version through the host's release mechanism and preserve the rate storage. This checkout has no Git repository; no commit, push, or deployment was attempted.
+Retain the previous deployment artifact and environment settings. To roll back, restore the prior artifact/server version through the host's release mechanism and preserve the rate storage. The owner has provided a Git checkout in the relocated project. This task has not committed, pushed or deployed it.
 
 ## Corporate-only release
 

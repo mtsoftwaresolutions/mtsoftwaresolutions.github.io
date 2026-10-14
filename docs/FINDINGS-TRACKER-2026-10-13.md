@@ -2,7 +2,7 @@
 
 Authority: latest owner Corporate Website Correction and Completion Plan. P = PLATFORM-REVIEW-2026-10-13-AR.md; B = BUSINESS-REVIEW-2026-10-13-AR.md. Earlier portfolio/demo recommendations are superseded, not unfinished requirements. Client work cannot lawfully be shared, per owner.
 
-Baseline: private original archive verified and fresh mixed-state snapshot/hash created; baseline build/check and 19 tests passed. Representative bilingual current-state captures are in `screenshots/corporate-only-2026-10-13/before/`. Final evidence is under `after/` and VERIFICATION.md. Older reports retain their historical measurements.
+Historical October 13 baseline: original archive verified and mixed-state snapshot/hash created; baseline build/check and 19 tests passed. Representative bilingual current-state captures are in `screenshots/corporate-only-2026-10-13/before/`. Final continuation evidence is under `screenshots/corporate-only-2026-10-14/after/` and VERIFICATION.md. Current private recovery is the new October 14 archive; earlier archives are absent after relocation. Older reports retain their historical measurements.
 
 | ID / finding / source / priority | Current action and affected source | Acceptance / dependency | Status and evidence |
 |---|---|---|---|
@@ -31,8 +31,8 @@ Baseline: private original archive verified and fresh mixed-state snapshot/hash 
 | F23 Source/KPI measurement, P8 B9 / business | No public tracking added; private manual materials preserved | Actual cohort/records needed | Outside current task; no new analytics, fabricated forecasts or conversions |
 | F24 Marketing experiments, B8 / business | Existing private drafts marked historical; demo references superseded and not publishable | Separate channel/spend/publishing authorization | Not applicable to present correction; no campaign, outreach or spending |
 | F25 Retention/privacy, P8 / medium | Removed demo text; describe current page-memory/provider/HMAC behavior | Owner retention durations, request handling and host logs need decisions | Implemented technical description; owner policy/external arrangements pending |
-| F26 Durable release/rollback, P8 / high | Workspace snapshots/hashes; runtime includes server content/rules; archive/extracted-server checks | Private source/release; preserve persistent storage and salt | In progress — final release/extraction verification to be recorded |
-| F27 Fresh verification, P verification / high | All requested commands, corrected routes plus root/deep 404, keyboard/RTL/no-JS/simulated Contact, visual/audit | Corrected-version evidence; unavailable engines not passes | In progress — Chromium/WebKit and audit passed; final Contact ordering/root supplements and release checks underway |
+| F26 Durable release/rollback, P8 / high | Workspace snapshots/hashes; runtime includes server content/rules; archive/extracted-server checks | Private source/release; preserve persistent storage and salt | Implemented and verified — October 14 runtime/source archive hashes, safe extraction, archived-server smoke and private boundaries passed |
+| F27 Fresh verification, P verification / high | All requested commands, corrected routes plus root/deep 404, keyboard/RTL/no-JS/simulated Contact, visual/audit | Corrected-version evidence; unavailable engines not passes | Implemented and verified — October 14 Chromium/WebKit, configured Contact/root supplements, six audits and archive checks; Firefox unavailable, excluded from passes |
 | F28 Future CRM/product/analytics, P8 B7 B8 / superseded | No public CRM, product, authentication or unsolicited tracking | Outside informational site purpose | Not applicable, with evidence — strict current route/data/asset inventory |
 
 ## Correction-specific items
@@ -40,10 +40,10 @@ Baseline: private original archive verified and fresh mixed-state snapshot/hash 
 | ID | Finding / baseline | Action / affected files | Acceptance | Status |
 |---|---|---|---|---|
 | C01 | Source contained 38 pages with six rejected showcase documents | Remove templates/data/assets/route and stale locale files; build clean dist | 32 retained docs; old showcase URLs localized 404, no asset/script leak | Implemented and verified |
-| C02 | Demo-positive unit/browser/cross-engine/audit/release assertions | Replace with corporate content/absence/404 guards; retain service/contact assertions | All meaningful retained behavior checked, removal not counted as regression | Implemented; final verification being recorded |
+| C02 | Demo-positive unit/browser/cross-engine/audit/release assertions | Replace with corporate content/absence/404 guards; retain service/contact assertions | All meaningful retained behavior checked, removal not counted as regression | Implemented and verified — 20 unit groups and corrected browser/cross-engine assertions |
 | C03 | Configured native form could become disabled on locale change with missing fetch/AbortController/crypto | Initialize available from server; render enabled native fields after translation | Native UTF-8 POST after locale switch succeeds only in intercepted test | Implemented and verified |
-| C04 | Configured visual form priority differed from DOM order | Reorder direct actions in actual server HTML and enhanced DOM | Form before direct links when ready; direct links first when unavailable; focus coherent | Implemented; affected unit/browser coverage underway |
-| C05 | Current docs still described demo/portfolio scope or old counts | Rewrite current docs; date historical records and retain original audit evidence | No active demo requirement or false completion claim | In progress |
+| C04 | Configured visual form priority differed from DOM order | Reorder direct actions in actual server HTML and enhanced DOM | Form before direct links when ready; direct links first when unavailable; focus coherent | Implemented and verified — native HTML ordering, configured Contact DOM/focus/axe and unsupported-API locale POST |
+| C05 | Current docs still described demo/portfolio scope or old counts | Rewrite current docs; date historical records and retain original audit evidence | No active demo requirement or false completion claim | Implemented and verified — current docs align with final source/results |
 | C06 | Private business drafts existed from previous work | Preserve files, add historical scope notice, keep outside public build | No business-tool expansion; no public client database | Implemented and verified by boundaries |
 
 ## External/factual gaps

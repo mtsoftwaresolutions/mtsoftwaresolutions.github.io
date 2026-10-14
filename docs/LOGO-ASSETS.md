@@ -19,6 +19,6 @@ Main brand and icon URLs include content hashes; generated page script/style URL
 
 `npm run build` regenerates branding and illustrative assets using `scripts/brand-assets.cjs`. The pinned build-only `@resvg/resvg-js` 2.6.2 renders the native SVG to deterministic PNGs and the ICO entries. `node scripts/brand-assets.cjs` may also regenerate the source assets directly. No network or AI extraction is required.
 
-The superseded pixel contour trace and rejected image candidate remain in source for provenance but are excluded from the public build. No original artwork is overwritten.
+The superseded pixel contour trace and rejected image candidate are preserved in the external cleanup archive for provenance and are absent from active source/public output. No original artwork is overwritten.
 
 Before/after English and Arabic desktop/mobile images are in `screenshots/upgrade-before/` and `screenshots/upgrade-after/`. The original/cleaned symbol comparison and native icon preview are in `screenshots/upgrade-after/branding/`. Pixel-level silhouette comparison at source resolution measured approximately 96.8% intersection-over-union at a 128 darkness threshold; small reconstructed contour differences remain. The complete official raster retains exact fidelity. An original professional vector source would still be preferable for large-format reproduction.

@@ -1,6 +1,8 @@
+> Repository cleanup: the recorded evidence and private archives below are now preserved outside the project. See REPOSITORY-CLEANUP.md for the exact location. These are historical paths, not missing runtime dependencies.
+
 # Private releases, recovery and rollback
 
-The October 13 source baseline is `.private/baselines/baseline-2026-10-13.tar.gz`; its SHA-256 and inventory are in the adjacent JSON. This is persistent workspace recovery rather than an old /tmp dependency. Keep `.private` outside public hosting and copy backups to private owner-controlled off-device storage. There is still no Git repository; the existing workspace was preserved.
+Current source recovery snapshot: `.private/baselines/corporate-resume-before-2026-10-14.tar.gz`, SHA-256 and inventory in adjacent JSON. It was created and verified in the owner-provided Git checkout at `/Users/mohamedtamer0/Desktop/Work/mtsoftwaresolutions.github.io` before continuation edits. Earlier October 13 snapshots were verified in the former directory but are absent from this checkout; do not rely on them here. Copy current private archives to owner-controlled off-device backup storage. The task did not initialize Git, commit, push or deploy.
 
 ## Reproducible release
 

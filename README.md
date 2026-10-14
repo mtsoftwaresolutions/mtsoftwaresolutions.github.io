@@ -2,7 +2,7 @@
 
 Arabic/English **company introduction website** using Bootstrap 5.3.8, shared generated HTML, plain CSS/JavaScript and a private Node/Resend contact endpoint.
 
-Locally implemented and awaiting fresh final verification/external production configuration. No public deployment, live provider acceptance or inbox test has occurred. The owner's latest instruction excludes every portfolio, work sample, internal demonstration, case study, mock product and project screenshot.
+Locally implemented and verified on October 14, 2026; external production configuration remains pending. This task performed no public deployment, live provider acceptance or inbox test. Hosting configured separately by the owner has not been assessed here. The owner's latest instruction excludes every portfolio, work sample, internal demonstration, case study, mock product and project screenshot.
 
 ## Run locally
 
@@ -80,13 +80,13 @@ npm run test:browsers
 npm run audit
 ```
 
-Set `TEST_URL`, `SCREENSHOT_DIR` or `CHROMIUM_PATH` when needed. Contact browser requests are intercepted or simulated; tests do not send real mail. Browser-engine unavailability is reported as a limitation and non-pass result.
+Set `TEST_URL`, `SCREENSHOT_DIR` or `CHROMIUM_PATH` when needed. Contact browser requests are intercepted or simulated; tests do not send real mail. Final checks: 20 unit groups, 390 Chromium locale layouts plus root/deep 404, 61 axe scans, 60 WebKit page checks and six mobile Lighthouse runs. Firefox launch is unavailable on this host and reported as a non-pass limit. Release extraction/archived-server checks passed.
 
-Current corporate-only evidence belongs in `screenshots/corporate-only-2026-10-13/`, with final results in `docs/VERIFICATION.md`. Older company/details and interrupted implementation evidence remains historical. It is not proof of the corrected final version.
+Current corporate-only evidence belongs in `screenshots/corporate-only-2026-10-14/after/` (final), with October 13 before captures retained separately, with final results in `docs/VERIFICATION.md`. Older company/details and interrupted implementation evidence remains historical. It is not proof of the corrected final version.
 
 ## Private recovery and release
 
-Original and current correction snapshots are in `.private/baselines/` with SHA-256 manifests. Restore selectively from a new private extraction directory and preserve unrelated newer work. No Git repository was initialized.
+The current verified snapshot is `.private/baselines/corporate-resume-before-2026-10-14.tar.gz` with a SHA-256 manifest. Earlier snapshots were not carried into the relocated checkout. Restore selectively from a new private extraction directory and preserve unrelated newer work. The owner supplied the Git checkout; this task did not initialize, commit or push it.
 
 ```sh
 npm run release
@@ -102,3 +102,9 @@ Serve only `dist/` publicly. Keep docs, screenshots, business materials, backups
 A real HTTPS `SITE_URL` is required at build/runtime for canonical/hreflang, Open Graph URLs, sitemap and Organization/CSP metadata. Without it, robots deliberately blocks indexing. Do not deploy an isolated test domain. Static hosting alone does not provide the contact API.
 
 Hosting/TLS/proxy, verified sender and credentials, persistent rate storage, approved handling/retention policies and a specifically authorized acceptance/inbox test remain external requirements. Read `docs/PRODUCTION-SETUP.md`; local test results do not establish a public launch.
+
+## Repository size and local artifacts
+
+Dependencies (`node_modules/`), built output (`dist/`), screenshots, runtime files and private business/recovery materials do not belong in Git. Install dependencies with `npm ci` and regenerate output with `npm run build`. Keep the generated root/locale pages and their used assets because they support the existing static presentation. The cleanup removed unused font files and retired `logo-web` assets without changing the active logo.
+
+Existing QA reports, private operations drafts, release/baseline archives and historical materials have been moved outside the project. Their preserved location and recovery steps are in [REPOSITORY-CLEANUP.md](docs/REPOSITORY-CLEANUP.md). Future test/release commands recreate ignored local outputs as needed.

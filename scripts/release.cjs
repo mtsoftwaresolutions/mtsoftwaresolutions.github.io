@@ -9,7 +9,7 @@ function release(){
  for(const command of ['build','check','test'])run('npm',['run',command]);
  const id='release-'+new Date().toISOString().replace(/[:.]/g,'-');const output=path.join(root,'.private/releases',id);fs.mkdirSync(output,{recursive:true,mode:0o700});
  const runtime=['dist','server','js/contact-rules.js','js/content.js','package.json','package-lock.json'];
- const source=['js','css','scripts','server','tests','templates','assets','docs','README.md','package.json','package-lock.json','.gitignore','.env.example'];
+ const source=['js','css','scripts','server','tests','assets','docs','README.md',...(fs.existsSync(path.join(root,'LICENSE'))?['LICENSE']:[]),'package.json','package-lock.json','.gitignore','.env.example'];
  for(const [name,entries]of [['runtime',runtime],['source',source]])run('tar',['-czf',path.join(output,name+'.tar.gz'),...entries]);
  const manifest={id,createdUTC:new Date().toISOString(),origin:JSON.parse(fs.readFileSync(path.join(root,'dist/.build-meta.json'))).origin,readiness:'Local release; external HTTPS/provider/storage configuration and controlled acceptance/receipt still required',archives:Object.fromEntries(['runtime','source'].map(name=>[name+'.tar.gz',digest(path.join(output,name+'.tar.gz'))])),publicFiles:Object.fromEntries(files(path.join(root,'dist')).map(file=>[file,digest(path.join(root,'dist',file))])),excluded:['.env','.runtime','business-operations','screenshots','.private','node_modules'],runtimeEntries:runtime};
  fs.writeFileSync(path.join(output,'manifest.json'),JSON.stringify(manifest,null,2));
