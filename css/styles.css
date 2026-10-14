@@ -215,7 +215,7 @@ textarea {
   text-decoration: underline;
   text-underline-offset: .25rem;
 }
-.text-link:hover .directional {
+.text-link:not(.service-link):hover .directional {
   transform: translateX(3px);
 }
 .skip-link {
@@ -903,7 +903,6 @@ html:not(.nav-ready) .site-header:has(.nav-shell[open]) {
 .service-index-link > span > span { display:block; font-size:.86rem; margin-top:.4rem; color:var(--muted); }
 .service-index-icon { display:grid; place-items:center; width:2rem; height:2rem; flex:none; color:var(--green); }
 .service-index-link > .icon { width:1rem; height:1rem; }
-.service-index-link:hover, .service-index-link:focus-visible { background:#e8e4de55; }
 .distinction { margin:1.5rem 0 0; padding-inline-start:1rem; border-inline-start:2px solid var(--gold); font-size:.9rem; }
 .needs-section { background:white; }
 .small-index { color:var(--green); font-size:.8rem; font-weight:700; line-height:2; }
@@ -987,7 +986,7 @@ html:not(.nav-ready) .site-header:has(.nav-shell[open]) {
 html[dir=rtl] :is(h1,h2,h3,h4) { letter-spacing:0; }
 html[dir=rtl] .hero h1 { max-width:17ch; line-height:1.4; }
 html[dir=rtl] .directional { transform:scaleX(-1); }
-html[dir=rtl] .text-link:hover .directional { transform:scaleX(-1) translateX(3px); }
+html[dir=rtl] .text-link:not(.service-link):hover .directional { transform:scaleX(-1) translateX(3px); }
 @media (min-width:80rem) { .nav-project-cta { display:inline-flex; margin:0; min-height:44px; font-size:.85rem; padding:.65rem .85rem; white-space:nowrap; } }
 @media (max-width:1119.98px) { .nav-ready .site-header { height:81px; } }
 @media (max-width:991.98px) {
@@ -996,6 +995,10 @@ html[dir=rtl] .text-link:hover .directional { transform:scaleX(-1) translateX(3p
  .audience-list { grid-template-columns:repeat(2,minmax(0,1fr)); }
  .hero h1 { max-width:17ch; }
  .contact-section { padding-block:2rem 3rem; }
+}
+/* Keep the footer's negative Bootstrap gutters inside the tablet page edges. */
+@media (min-width:576px) and (max-width:1279.98px) {
+ .site-footer .row.g-5 { --bs-gutter-x:2rem; }
 }
 @media (max-width:575.98px) {
  .row.g-5 { --bs-gutter-x:1.5rem; }
@@ -1035,10 +1038,11 @@ html[dir=rtl] .text-link:hover .directional { transform:scaleX(-1) translateX(3p
 }
 @media (hover:hover) and (pointer:fine) { .btn:hover { transform:translateY(-2px); } }
 @media (prefers-reduced-motion:no-preference) {
- .hero-content > .eyebrow,.hero h1,.hero-description,.hero .actions { animation:menu-in var(--reveal) var(--emphasis) both; }
- .hero h1 { animation-delay:35ms; }
- .hero-description { animation-delay:70ms; }
- .hero .actions { animation-delay:105ms; }
+ .hero-content.is-entering > :is(.eyebrow,h1,.hero-description,.actions) { animation:hero-enter var(--reveal) var(--emphasis) backwards; }
+ .hero-content.is-entering h1 { animation-delay:35ms; }
+ .hero-content.is-entering .hero-description { animation-delay:70ms; }
+ .hero-content.is-entering .actions { animation-delay:105ms; }
+ .hero-content.is-entering .hero-highlight::before { animation:highlight-in var(--reveal) var(--emphasis) 90ms both; }
 }
 @media (prefers-reduced-motion:reduce) {
  html { scroll-behavior:auto; }
@@ -1135,6 +1139,27 @@ html[dir=rtl] .text-link:hover .directional { transform:scaleX(-1) translateX(3p
 .starting-path summary { color:var(--green); cursor:pointer; font-size:1rem; font-weight:700; min-height:44px; }
 .starting-path p { font-size:.9rem; margin:.75rem 0; }
 .starting-path .text-link { font-size:.85rem; }
+
+/* One-word highlight: its background moves; headline text is always readable. */
+.hero-highlight { display:inline-block; position:relative; isolation:isolate; white-space:nowrap; }
+.hero-highlight::before { content:""; position:absolute; z-index:-1; inset-inline:0; inset-block-end:.12em; block-size:.38em; background:var(--gold-light); border-radius:.04em; transform-origin:left center; }
+html[dir=rtl] .hero-highlight::before { transform-origin:right center; }
+@keyframes hero-enter { from { transform:translateY(8px); } to { transform:none; } }
+@keyframes highlight-in { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+
+/* Only actual service links receive this feedback. Geometry stays unchanged. */
+:is(.service-index-link,.service-link) { --service-arrow-shift:3px; --service-arrow-scale:1; transition:background-color 200ms var(--ease),border-color 200ms var(--ease); }
+html[dir=rtl] :is(.service-index-link,.service-link) { --service-arrow-shift:-3px; --service-arrow-scale:-1; }
+:is(.service-index-link,.service-link) > .directional { transition:transform 200ms var(--ease); }
+:is(.service-index-link,.service-link):focus-visible { background:#e8e4de55; }
+:is(.service-index-link,.service-link):focus-visible > .directional { transform:translateX(var(--service-arrow-shift)) scaleX(var(--service-arrow-scale)); }
+@media (hover:hover) and (pointer:fine) {
+ :is(.service-index-link,.service-link):hover { background:#e8e4de55; }
+ :is(.service-index-link,.service-link):hover > .directional { transform:translateX(var(--service-arrow-shift)) scaleX(var(--service-arrow-scale)); }
+}
+@media (prefers-reduced-motion:reduce) {
+ :is(.service-index-link,.service-link):is(:hover,:focus-visible) > .directional { transform:scaleX(var(--service-arrow-scale)); }
+}
 .path-note { margin:1rem 0 0; }
 html[dir=rtl] .corporate-hero h1 { max-width:24ch; }
 @media (max-width:767.98px) { .starting-paths { grid-template-columns:1fr; gap:.5rem; } }

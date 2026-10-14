@@ -12,6 +12,9 @@ let sending=false,available=document.body.dataset.contactConfigured==='true',for
 let requestKey='',requestFingerprint='';
 const t=key=>pick(copy[key],locale);
 const media=window.matchMedia('(prefers-reduced-motion: reduce)');
+const motionSeen=new WeakSet(),introSeen=new WeakSet(),motionAnimations=new Set();
+const motionTargets='.section-heading,.service-detail,.expanded-step,.contact-card,.process-grid li';
+let enteringHero=null;
 const ajaxSupported=typeof window.fetch==='function'&&typeof window.AbortController==='function'&&typeof window.crypto?.getRandomValues==='function';
 const statusText={timeout:'timeoutError',success:'success',network:'networkError',provider:'providerError',unavailable:'unavailable',rate:'rateLimited',reset:'resetStatus'};
 function status(state){formState=state;const el=document.querySelector('#form-status');if(!el)return;el.textContent=statusText[state]?t(statusText[state]):'';el.dataset.state=state==='success'?'success':(['network','provider','unavailable','rate','timeout'].includes(state)?'error':'idle');}
@@ -86,7 +89,7 @@ async function changeLanguage(next,{history=true}={}){
   await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(new Error('stylesheet timeout')),5000);candidate.onload=()=>{clearTimeout(timer);resolve();};candidate.onerror=()=>{clearTimeout(timer);reject(new Error('stylesheet unavailable'));};document.head.append(candidate);});
   if(id!==languageRequest||sending){candidate.remove();if(id===languageRequest)pendingStyle=null;return;}
   const values=formValues(),previousState=formState;
-  closeMenu();motionObserver?.disconnect();document.getElementById('bootstrap-css').remove();candidate.id='bootstrap-css';candidate.media='all';pendingStyle=null;
+  closeMenu();stopMotion();document.getElementById('bootstrap-css').remove();candidate.id='bootstrap-css';candidate.media='all';pendingStyle=null;
   locale=next;document.documentElement.lang=locale;document.documentElement.dir=locale==='ar'?'rtl':'ltr';
   app.innerHTML=window.MTViews.pageHTML({lang:locale,page,root,hash:location.hash,service:values.service});
   const f=document.querySelector('#inquiry-form');for(const [key,value]of Object.entries(values))if(f.elements[key])f.elements[key].value=value;f.elements.language.value=locale;
@@ -106,13 +109,40 @@ function bindNavigation(){
  nav.querySelector('.nav-paths').open=!desktop.matches;nav.addEventListener('toggle',setMenuState);document.documentElement.classList.add('nav-ready');setMenuState();
 }
 function restoreAnchor(){if(page!=='services'||!location.hash)return;let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}document.getElementById(id)?.scrollIntoView({behavior:'instant',block:'start'});}
+function finishIntro(event){
+ if(event&&event.target!==enteringHero?.querySelector('.actions'))return;
+ enteringHero?.classList.remove('is-entering');enteringHero?.removeEventListener('animationend',finishIntro);enteringHero=null;
+}
+function startIntro(){
+ const hero=document.querySelector('.hero-content');if(!hero||introSeen.has(hero))return;introSeen.add(hero);
+ if(media.matches)return;enteringHero=hero;hero.addEventListener('animationend',finishIntro);hero.classList.add('is-entering');
+}
+function stopMotion(){
+ motionObserver?.disconnect();motionObserver=null;finishIntro();
+ for(const animation of motionAnimations)animation.cancel();motionAnimations.clear();
+}
+function rememberVisibleMotion(){
+ document.querySelectorAll(motionTargets).forEach(el=>{const box=el.getBoundingClientRect();if(box.top<innerHeight&&box.bottom>0)motionSeen.add(el);});
+}
 function enhanceMotion(){
- motionObserver?.disconnect();if(media.matches||!('IntersectionObserver'in window))return;
- try{motionObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){const el=entry.target;el.animate?.([{opacity:.65,transform:'translateY(.65rem)'},{opacity:1,transform:'none'}],{duration:420,delay:Math.min(Number(el.dataset.stagger||0)*35,105),easing:'cubic-bezier(.22,1,.36,1)'});motionObserver.unobserve(el);}},{threshold:.08});document.querySelectorAll('.section-heading,.service-detail,.expanded-step,.contact-card,.process-grid li').forEach((el,i)=>{el.dataset.stagger=i%3;motionObserver.observe(el);});}catch{}
+ motionObserver?.disconnect();motionObserver=null;
+ if(media.matches||!('IntersectionObserver'in window)||typeof Element.prototype.animate!=='function')return;
+ try{
+  const observer=new IntersectionObserver(entries=>{
+   if(motionObserver!==observer)return;
+   for(const entry of entries)if(entry.isIntersecting){
+    const el=entry.target;observer.unobserve(el);if(motionSeen.has(el))continue;motionSeen.add(el);
+    try{const animation=el.animate([{opacity:.85,transform:'translateY(8px)'},{opacity:1,transform:'none'}],{duration:420,delay:Math.min(Number(el.dataset.stagger||0)*35,70),easing:'cubic-bezier(.22,1,.36,1)',fill:'backwards'});
+     motionAnimations.add(animation);animation.onfinish=animation.oncancel=()=>motionAnimations.delete(animation);
+    }catch{/* Content is visible even when an individual animation cannot run. */}
+   }
+  },{threshold:.08});
+  motionObserver=observer;document.querySelectorAll(motionTargets).forEach((el,i)=>{if(!motionSeen.has(el)){el.dataset.stagger=i%3;observer.observe(el);}});
+ }catch{motionObserver?.disconnect();motionObserver=null;}
 }
 function initializeControls(){
  bindNavigation();document.querySelectorAll('.copy-email').forEach(el=>el.hidden=false);restoreAnchor();
- enhanceMotion();
+ enhanceMotion();startIntro();
 }
 app.addEventListener('click',async ev=>{
  const language=ev.target.closest('[data-language]');if(language&&!ev.ctrlKey&&!ev.metaKey&&!ev.shiftKey&&!ev.altKey&&ev.button===0){if(page==='contact'){ev.preventDefault();await changeLanguage(language.dataset.language);}else syncLanguageLink();return;}
@@ -133,10 +163,11 @@ document.addEventListener('click',ev=>{if(!ev.target.closest('.nav-paths'))docum
 document.addEventListener('focusin',ev=>{navFocusElement=ev.target.closest('.site-header')?ev.target:null;});
 desktop.addEventListener('change',()=>{const focus=navFocusElement;document.getElementById('site-nav').open=desktop.matches;document.querySelector('.nav-paths').open=!desktop.matches;setMenuState();if(!desktop.matches&&focus?.closest('.nav-panel'))document.querySelector('.navbar-toggler').focus();else if(desktop.matches&&focus?.matches('.navbar-toggler'))document.querySelector('.navbar-brand').focus();else if(desktop.matches&&focus?.closest('.nav-paths-menu'))document.querySelector('.nav-paths>summary').focus();});
 window.addEventListener('scroll',()=>document.querySelector('.site-header')?.classList.toggle('is-scrolled',scrollY>12),{passive:true});
-media.addEventListener('change',()=>{if(media.matches){motionObserver?.disconnect();document.getAnimations().forEach(a=>a.cancel());}else enhanceMotion();});
+media.addEventListener('change',()=>{if(media.matches)stopMotion();rememberVisibleMotion();if(!media.matches)enhanceMotion();});
 window.addEventListener('hashchange',()=>{syncLanguageLink();restoreAnchor();});
 window.addEventListener('popstate',()=>{if(page==='contact'){const next=location.pathname.includes('/ar/')?'ar':'en';changeLanguage(next,{history:false});}});
-window.addEventListener('pagehide',()=>{activeController?.abort();const f=document.getElementById('inquiry-form');if(f){sending=false;clearForm(f);status('idle');}});
+window.addEventListener('pagehide',()=>{stopMotion();activeController?.abort();const f=document.getElementById('inquiry-form');if(f){sending=false;clearForm(f);status('idle');}});
+window.addEventListener('pageshow',ev=>{if(ev.persisted){rememberVisibleMotion();enhanceMotion();}});
 if(page==='contact'){const selected=new URLSearchParams(location.search).get('service');if(services.some(s=>s.id===selected))document.getElementById('service').value=selected;bindForm();checkContact();}
 syncLanguageLink();initializeControls();
 })();

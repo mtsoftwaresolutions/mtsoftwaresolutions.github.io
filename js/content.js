@@ -791,6 +791,10 @@
       "Software for your business and your next idea.",
       "حلول برمجية لأعمالك وأفكارك."
     ],
+    "heroHighlight": [
+      "Software",
+      "برمجية"
+    ],
     "heroDescription": [
       "We develop custom software, web and mobile applications, connect systems, and provide consulting, maintenance and cloud services. Tell us what your organization or project needs.",
       "نطوّر برمجيات مخصصة وتطبيقات ويب وموبايل، ونربط الأنظمة، ونقدم الاستشارات والصيانة والخدمات السحابية. حدّثنا عن احتياج مؤسستك أو مشروعك."

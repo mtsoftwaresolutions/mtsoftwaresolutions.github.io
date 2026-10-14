@@ -1,5 +1,26 @@
 > Repository cleanup: the recorded evidence and private archives below are now preserved outside the project. See REPOSITORY-CLEANUP.md for the exact location. These are historical paths, not missing runtime dependencies.
 
+# Verification — restrained motion, 14 October 2026
+
+Implemented: one-time gold background reveal behind the unchanged headline word `Software` / `برمجية`; service-link hover/keyboard feedback with logical arrow direction; short selective entrances with visible fallback, visited-element tracking and locale/preference/page lifecycle cleanup. Existing header, buttons, content, services and contact behavior remain. A pre-existing 4px tablet footer gutter overflow exposed by WebKit was corrected without hiding overflow.
+
+- Baseline and final `npm run build`, `npm run check`, `npm test`: passed (32 generated documents, 1,362 links/anchors, 224 asset references, 20 unit groups).
+- Final `npm run test:browser`: passed (390 bilingual page/viewport cases; 60 route axe scans plus configured Contact scan; simulated contact, native fallback, no-JS, reduced motion, removed routes and retained service preselection).
+- `npm run test:motion`: passed in Chromium 151.0.7922.34 and WebKit 26.0, with 16 bilingual layouts per engine across 320/390/768/1119/1120/1279/1280/1440px. Checks cover timed reveal samples, unchanged headline text, logical origin, stable geometry, doubled headline text, 200% equivalent reflow, mouse/keyboard/touch, one-shot scrolling, live preference changes, unsupported/throwing APIs and repeated Contact locale changes preserving drafts.
+- Additional early reduced-motion cancellation during the active Arabic hero reveal: passed. The final highlight remains readable and does not restart when normal motion returns.
+- `npm run test:browsers`: WebKit passed all 60 retained locale route/layout checks. The command exits nonzero because Firefox launch timed out on this host; Firefox coverage is unavailable, not passed.
+- Chromium layout-shift observation recorded 0 for each homepage language. WebKit does not expose this performance entry; stable page/hero geometry was verified through timed samples instead. No Lighthouse or field-performance improvement is claimed.
+- Before/after page heights and hero heights at 390/1440px are unchanged in both languages. Final screenshots and reveal samples were visually inspected, including Arabic at 320px and doubled headline text.
+
+Private source backup, plan, logs and current evidence:
+`/Users/mohamedtamer0/Desktop/Work/MTSS Private Archive/motion-2026-10-14-164552/`
+
+`baseline-source/` contains recoverable pre-edit files; `before/` holds baseline captures; `motion/` holds final screenshots, timed samples, motion report and geometry/early-cancellation evidence; `browser/` holds full browser/accessibility and cross-browser reports. These files are outside Git and the public build. Restore source selectively, preserving newer owner work, then install dependencies and rebuild.
+
+Known pre-existing limit: doubling the root font size for the entire page at a 320px viewport causes header/footer overflow in both baseline and final versions. This is distinct from the successfully checked doubled headline and 200% equivalent browser reflow; whole-page text-only enlargement is not claimed fixed. Firefox is also unverified. No public deployment, real email/provider request, account change, Git commit or push occurred.
+
+---
+
 # Verification — corporate-only correction, 14 October 2026
 
 **Local correction verified; external launch configuration pending.** The public site introduces the company and services only. No portfolio, sample application, internal demo, case study, mock product or project screenshot remains. This task did not publish, commit/push, change accounts or send real inquiries. Separately configured public hosting has not been assessed.

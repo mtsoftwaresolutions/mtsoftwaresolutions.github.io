@@ -1,5 +1,7 @@
 # Current implementation — corporate introduction only
 
+October 14 animation refinement: one-time gold headline highlight, service-link mouse/keyboard feedback and selective 8px/420ms entrances with brief stagger. Arabic and English use their logical reveal/arrow directions. The static presentation remains visible without JavaScript or animation APIs; reduced motion cancels active effects. Visited-element tracking and locale/page lifecycle cleanup prevent duplicate observers and replay. The header/button treatment and company information remain; tablet footer gutters received a small overflow correction. See the latest section in VERIFICATION.md for actual evidence and limitations.
+
 The owner's latest Corporate Website Correction and Completion Plan supersedes all portfolio/demo recommendations and interrupted showcase work. The public website introduces MT Software Solutions, its eight services, seven audiences, project discussion topics and contact options. It contains no portfolio, work samples, demonstrations, case studies, mock products or project screenshots.
 
 Bootstrap 5.3.8, cream/forest/gold, original branding, shared bilingual generation, legacy service/group IDs and the actual protected Resend backend remain. Eight service pages per locale are retained. The generated output has 32 documents. Removed showcase URLs receive localized 404 rather than redirects or hidden pages.

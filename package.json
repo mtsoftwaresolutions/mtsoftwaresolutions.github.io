@@ -14,6 +14,7 @@
     "check": "node scripts/check.cjs",
     "test": "node --test tests/*.test.cjs",
     "test:browser": "node scripts/browser-check.cjs",
+    "test:motion": "node scripts/motion-check.cjs",
     "audit": "node scripts/lighthouse.cjs",
     "test:browsers": "node scripts/cross-browser.cjs",
     "release": "node --env-file-if-exists=.env scripts/release.cjs"

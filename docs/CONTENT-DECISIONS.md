@@ -17,3 +17,11 @@
 - Metadata remains domain-gated. A reserved `.invalid` origin is used only in isolated test output; no invented domain enables the actual local build. Production hosting/email/remote rate storage and live receipt are deferred.
 
 Fresh verification and local release status are recorded in VERIFICATION.md. Historical review reports retain their original findings; the tracker records their revised outcomes under the latest owner scope.
+
+## Restrained animation refinement — 14 October 2026
+
+- Existing headline wording is unchanged. A single whole localized word (`Software` / `برمجية`) receives a gold background reveal; no duplicated text, letter splitting, new imagery or decorative hero component.
+- Motion is progressive enhancement: static content is visible; the intro runs once when enabled and does not restart after preference changes. Scroll reveals track visited elements and cancel old animations/observers on in-page locale changes.
+- Service destination links receive keyboard/mouse feedback with RTL/LTR arrow direction. Hover movement is limited to fine pointers; reduced motion keeps immediate background/focus feedback and the correct arrow orientation.
+- Buttons, header treatment, company content, services, audiences, contact, routes and dependencies are retained. A small footer gutter correction addresses pre-existing tablet overflow found in WebKit during verification.
+- No marquee, rotating wording, glow panel, showcase, tracking, deployment or live provider request was introduced. Backups and evidence stay outside Git.

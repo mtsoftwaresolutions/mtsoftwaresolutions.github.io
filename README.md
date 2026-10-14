@@ -108,3 +108,9 @@ Hosting/TLS/proxy, verified sender and credentials, persistent rate storage, app
 Dependencies (`node_modules/`), built output (`dist/`), screenshots, runtime files and private business/recovery materials do not belong in Git. Install dependencies with `npm ci` and regenerate output with `npm run build`. Keep the generated root/locale pages and their used assets because they support the existing static presentation. The cleanup removed unused font files and retired `logo-web` assets without changing the active logo.
 
 Existing QA reports, private operations drafts, release/baseline archives and historical materials have been moved outside the project. Their preserved location and recovery steps are in [REPOSITORY-CLEANUP.md](docs/REPOSITORY-CLEANUP.md). Future test/release commands recreate ignored local outputs as needed.
+
+## Restrained motion
+
+The homepage highlights one intact word (`Software` / `برمجية`) with a one-time gold background reveal from the language's logical start. Headline text stays readable. Service destination links use subtle background feedback and directional arrow movement for mouse and keyboard; touch has no hover-only movement. Entrances remain short and selective, with visible static fallbacks and cleanup during Contact translation, reduced-motion changes and page restoration.
+
+Run `npm run test:motion` with the preview running for targeted Chromium/WebKit behavioral checks. Set `TEST_URL` and `SCREENSHOT_DIR` for private evidence; this command defaults to the operating system's temporary directory rather than the repository. No animation dependencies were added. Current results and limitations are in [VERIFICATION.md](docs/VERIFICATION.md).
